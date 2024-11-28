@@ -137,7 +137,37 @@ namespace Naija.Grid.Net
                     new LGA { Id = 20, Name = "Orumba South" },
                     new LGA { Id = 21, Name = "Oyi" },
                 }
+            },
+            new State
+            {
+                Id = 5,
+                Name = "Bauchi",
+                Capital = "Bauchi",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Alkaleri" },
+                    new LGA { Id = 2, Name = "Bauchi" },
+                    new LGA { Id = 3, Name = "Bogoro" },
+                    new LGA { Id = 4, Name = "Damban" },
+                    new LGA { Id = 5, Name = "Darazo" },
+                    new LGA { Id = 6, Name = "Dass" },
+                    new LGA { Id = 7, Name = "Gamawa" },
+                    new LGA { Id = 8, Name = "Ganjuwa" },
+                    new LGA { Id = 9, Name = "Giade" },
+                    new LGA { Id = 10, Name = "Itas/Gadau" },
+                    new LGA { Id = 11, Name = "Jama'are" },
+                    new LGA { Id = 12, Name = "Katagum" },
+                    new LGA { Id = 13, Name = "Kirfi" },
+                    new LGA { Id = 14, Name = "Misau" },
+                    new LGA { Id = 15, Name = "Ningi" },
+                    new LGA { Id = 16, Name = "Shira" },
+                    new LGA { Id = 17, Name = "Tafawa Balewa" },
+                    new LGA { Id = 18, Name = "Toro" },
+                    new LGA { Id = 19, Name = "Warji" },
+                    new LGA { Id = 20, Name = "Zaki" },
+                }
             }
+
         };
     }
 }

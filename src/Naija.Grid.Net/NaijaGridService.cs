@@ -166,6 +166,23 @@ namespace Naija.Grid.Net
                     new LGA { Id = 19, Name = "Warji" },
                     new LGA { Id = 20, Name = "Zaki" },
                 }
+            },
+            new State
+            {
+                Id = 6,
+                Name = "Bayelsa",
+                Capital = "Yenagoa",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Brass" },
+                    new LGA { Id = 2, Name = "Ekeremor" },
+                    new LGA { Id = 3, Name = "Kolokuma/Opokuma" },
+                    new LGA { Id = 4, Name = "Nembe" },
+                    new LGA { Id = 5, Name = "Ogbia" },
+                    new LGA { Id = 6, Name = "Sagbama" },
+                    new LGA { Id = 7, Name = "Southern Ijaw" },
+                    new LGA { Id = 8, Name = "Yenagoa" },
+                }
             }
 
         };

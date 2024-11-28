@@ -183,8 +183,39 @@ namespace Naija.Grid.Net
                     new LGA { Id = 7, Name = "Southern Ijaw" },
                     new LGA { Id = 8, Name = "Yenagoa" },
                 }
+            },
+            new State
+            {
+                Id = 7,
+                Name = "Benue",
+                Capital = "Yenagoa",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Agatu" },
+                    new LGA { Id = 2, Name = "Apa" },
+                    new LGA { Id = 3, Name = "Ado" },
+                    new LGA { Id = 4, Name = "Buruku" },
+                    new LGA { Id = 5, Name = "Gboko" },
+                    new LGA { Id = 6, Name = "Guma" },
+                    new LGA { Id = 7, Name = "Gwer East" },
+                    new LGA { Id = 8, Name = "Gwer West" },
+                    new LGA { Id = 9, Name = "Katsina-Ala" },
+                    new LGA { Id = 10, Name = "Konshisha" },
+                    new LGA { Id = 11, Name = "Kwande" },
+                    new LGA { Id = 12, Name = "Logo" },
+                    new LGA { Id = 13, Name = "Makurdi" },
+                    new LGA { Id = 14, Name = "Obi" },
+                    new LGA { Id = 15, Name = "Ogbadibo" },
+                    new LGA { Id = 16, Name = "Ohimini" },
+                    new LGA { Id = 17, Name = "Oju" },
+                    new LGA { Id = 18, Name = "Okpokwu" },
+                    new LGA { Id = 19, Name = "Oturkpo" },
+                    new LGA { Id = 20, Name = "Tarka" },
+                    new LGA { Id = 21, Name = "Ukum" },
+                    new LGA { Id = 22, Name = "Ushongo" },
+                    new LGA { Id = 23, Name = "Vandeikya" },
+                }
             }
-
         };
     }
 }

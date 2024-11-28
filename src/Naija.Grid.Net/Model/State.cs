@@ -9,6 +9,6 @@ namespace Naija.Grid.Net.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public string Capital { get; set; }
-        public IEnumerable<LocalGovernment> LocalGovernments { get; set; } = new List<LocalGovernment>();
+        public IEnumerable<LGA> LocalGovernments { get; set; } = new List<LGA>();
     }
 }

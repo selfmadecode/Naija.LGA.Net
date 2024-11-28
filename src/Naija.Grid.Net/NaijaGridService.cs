@@ -215,7 +215,73 @@ namespace Naija.Grid.Net
                     new LGA { Id = 22, Name = "Ushongo" },
                     new LGA { Id = 23, Name = "Vandeikya" },
                 }
+            },
+            new State
+            {
+                Id = 8,
+                Name = "Borno",
+                Capital = "Maiduguri",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Abadam" },
+                    new LGA { Id = 2, Name = "Askira/Uba" },
+                    new LGA { Id = 3, Name = "Bama" },
+                    new LGA { Id = 4, Name = "Bayo" },
+                    new LGA { Id = 5, Name = "Biu" },
+                    new LGA { Id = 6, Name = "Chibok" },
+                    new LGA { Id = 7, Name = "Damboa" },
+                    new LGA { Id = 8, Name = "Dikwa" },
+                    new LGA { Id = 9, Name = "Guzamala" },
+                    new LGA { Id = 10, Name = "Gubio" },
+                    new LGA { Id = 11, Name = "Hawul" },
+                    new LGA { Id = 12, Name = "Gwoza" },
+                    new LGA { Id = 13, Name = "Jere" },
+                    new LGA { Id = 14, Name = "Kaga" },
+                    new LGA { Id = 15, Name = "Kala/Balge" },
+                    new LGA { Id = 16, Name = "Konduga" },
+                    new LGA { Id = 17, Name = "Kukawa" },
+                    new LGA { Id = 18, Name = "Kwaya Kusar" },
+                    new LGA { Id = 19, Name = "Mafa" },
+                    new LGA { Id = 20, Name = "Magumeri" },
+                    new LGA { Id = 21, Name = "Maiduguri" },
+                    new LGA { Id = 22, Name = "Mobbar" },
+                    new LGA { Id = 23, Name = "Marte" },
+                    new LGA { Id = 24, Name = "Monguno" },
+                    new LGA { Id = 25, Name = "Ngala" },
+                    new LGA { Id = 26, Name = "Nganzai" },
+                    new LGA { Id = 27, Name = "Shani" },
+                }
+            },
+            new State
+            {
+                Id = 9,
+                Name = "Cross River",
+                Capital = "Calabar",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Abi" },
+                    new LGA { Id = 2, Name = "Akamkpa" },
+                    new LGA { Id = 3, Name = "Akpabuyo" },
+                    new LGA { Id = 4, Name = "Bakassi" },
+                    new LGA { Id = 5, Name = "Bekwarra" },
+                    new LGA { Id = 6, Name = "Biase" },
+                    new LGA { Id = 7, Name = "Boki" },
+                    new LGA { Id = 8, Name = "Calabar Municipal" },
+                    new LGA { Id = 9, Name = "Calabar South" },
+                    new LGA { Id = 10, Name = "Etung" },
+                    new LGA { Id = 11, Name = "Ikom" },
+                    new LGA { Id = 12, Name = "Obanliku" },
+                    new LGA { Id = 13, Name = "Obubra" },
+                    new LGA { Id = 14, Name = "Obudu" },
+                    new LGA { Id = 15, Name = "Odukpani" },
+                    new LGA { Id = 16, Name = "Ogoja" },
+                    new LGA { Id = 17, Name = "Yakuur" },
+                    new LGA { Id = 18, Name = "Yala" },
+                }
             }
+
+
+
         };
     }
 }

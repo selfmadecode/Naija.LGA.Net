@@ -107,6 +107,36 @@ namespace Naija.Grid.Net
                     new LGA { Id = 30, Name = "Urue-Offong/Oruko"},
                     new LGA { Id = 31, Name = "Uyo"},
                 }
+            },
+            new State
+            {
+                Id = 4,
+                Name = "Anambra",
+                Capital = "Awka",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Aguata" },
+                    new LGA { Id = 2, Name = "Anambra East" },
+                    new LGA { Id = 3, Name = "Anaocha" },
+                    new LGA { Id = 4, Name = "Awka North" },
+                    new LGA { Id = 5, Name = "Anambra West" },
+                    new LGA { Id = 6, Name = "Awka South" },
+                    new LGA { Id = 7, Name = "Ayamelum" },
+                    new LGA { Id = 8, Name = "Dunukofia" },
+                    new LGA { Id = 9, Name = "Ekwusigo" },
+                    new LGA { Id = 10, Name = "Idemili North" },
+                    new LGA { Id = 11, Name = "Idemili South" },
+                    new LGA { Id = 12, Name = "Ihiala" },
+                    new LGA { Id = 13, Name = "Njikoka" },
+                    new LGA { Id = 14, Name = "Nnewi North" },
+                    new LGA { Id = 15, Name = "Nnewi South" },
+                    new LGA { Id = 16, Name = "Ogbaru" },
+                    new LGA { Id = 17, Name = "Onitsha North" },
+                    new LGA { Id = 18, Name = "Onitsha South" },
+                    new LGA { Id = 19, Name = "Orumba North" },
+                    new LGA { Id = 20, Name = "Orumba South" },
+                    new LGA { Id = 21, Name = "Oyi" },
+                }
             }
         };
     }

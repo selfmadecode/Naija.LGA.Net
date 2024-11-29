@@ -278,10 +278,41 @@ namespace Naija.Grid.Net
                     new LGA { Id = 17, Name = "Yakuur" },
                     new LGA { Id = 18, Name = "Yala" },
                 }
+            },
+            new State
+            {
+                Id = 10,
+                Name = "Delta",
+                Capital = "Asaba",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Aniocha North" },
+                    new LGA { Id = 2, Name = "Aniocha South" },
+                    new LGA { Id = 3, Name = "Bomadi" },
+                    new LGA { Id = 4, Name = "Burutu" },
+                    new LGA { Id = 5, Name = "Ethiope West" },
+                    new LGA { Id = 6, Name = "Ethiope East" },
+                    new LGA { Id = 7, Name = "Ika North East" },
+                    new LGA { Id = 8, Name = "Ika South" },
+                    new LGA { Id = 9, Name = "Isoko North" },
+                    new LGA { Id = 10, Name = "Isoko South" },
+                    new LGA { Id = 11, Name = "Ndokwa East" },
+                    new LGA { Id = 12, Name = "Ndokwa West" },
+                    new LGA { Id = 13, Name = "Okpe" },
+                    new LGA { Id = 14, Name = "Oshimili North" },
+                    new LGA { Id = 15, Name = "Oshimili South" },
+                    new LGA { Id = 16, Name = "Patani" },
+                    new LGA { Id = 17, Name = "Sapele" },
+                    new LGA { Id = 18, Name = "Udu" },
+                    new LGA { Id = 19, Name = "Ughelli North" },
+                    new LGA { Id = 20, Name = "Ukwuani" },
+                    new LGA { Id = 21, Name = "Ughelli South" },
+                    new LGA { Id = 22, Name = "Uvwie" },
+                    new LGA { Id = 23, Name = "Warri North" },
+                    new LGA { Id = 24, Name = "Warri South" },
+                    new LGA { Id = 25, Name = "Warri South West" },
+                }
             }
-
-
-
         };
     }
 }

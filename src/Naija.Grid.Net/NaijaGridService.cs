@@ -312,7 +312,30 @@ namespace Naija.Grid.Net
                     new LGA { Id = 24, Name = "Warri South" },
                     new LGA { Id = 25, Name = "Warri South West" },
                 }
+            },
+            new State
+            {
+                Id = 11,
+                Name = "Ebonyi",
+                Capital = "Abakaliki",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Abakaliki" },
+                    new LGA { Id = 2, Name = "Afikpo North" },
+                    new LGA { Id = 3, Name = "Ebonyi" },
+                    new LGA { Id = 4, Name = "Afikpo South" },
+                    new LGA { Id = 5, Name = "Ezza North" },
+                    new LGA { Id = 6, Name = "Ikwo" },
+                    new LGA { Id = 7, Name = "Ezza South" },
+                    new LGA { Id = 8, Name = "Ivo" },
+                    new LGA { Id = 9, Name = "Ishielu" },
+                    new LGA { Id = 10, Name = "Izzi" },
+                    new LGA { Id = 11, Name = "Ohaozara" },
+                    new LGA { Id = 12, Name = "Ohaukwu" },
+                    new LGA { Id = 13, Name = "Onicha" },
+                }
             }
+
         };
     }
 }

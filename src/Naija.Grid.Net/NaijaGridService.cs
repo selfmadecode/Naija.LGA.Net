@@ -386,6 +386,88 @@ namespace Naija.Grid.Net
                     new LGA { Id = 15, Name = "Moba" },
                     new LGA { Id = 16, Name = "Oye" },
                 }
+            },
+            new State
+            {
+                Id = 14,
+                Name = "Enugu",
+                Capital = "Enugu",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Awgu" },
+                    new LGA { Id = 2, Name = "Aninri" },
+                    new LGA { Id = 3, Name = "Enugu East" },
+                    new LGA { Id = 4, Name = "Enugu North" },
+                    new LGA { Id = 5, Name = "Ezeagu" },
+                    new LGA { Id = 6, Name = "Enugu South" },
+                    new LGA { Id = 7, Name = "Igbo Etiti" },
+                    new LGA { Id = 8, Name = "Igbo Eze North" },
+                    new LGA { Id = 9, Name = "Igbo Eze South" },
+                    new LGA { Id = 10, Name = "Isi Uzo" },
+                    new LGA { Id = 11, Name = "Nkanu East" },
+                    new LGA { Id = 12, Name = "Nkanu West" },
+                    new LGA { Id = 13, Name = "Nsukka" },
+                    new LGA { Id = 14, Name = "Udenu" },
+                    new LGA { Id = 15, Name = "Oji River" },
+                    new LGA { Id = 16, Name = "Uzo Uwani" },
+                    new LGA { Id = 17, Name = "Udi" },
+                }
+            },
+            new State
+            {
+                Id = 15,
+                Name = "Gombe",
+                Capital ="Gombe",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Akko" },
+                    new LGA { Id = 2, Name = "Balanga" },
+                    new LGA { Id = 3, Name = "Billiri" },
+                    new LGA { Id = 4, Name = "Dukku" },
+                    new LGA { Id = 5, Name = "Funakaye" },
+                    new LGA { Id = 6, Name = "Gombe" },
+                    new LGA { Id = 7, Name = "Kaltungo" },
+                    new LGA { Id = 8, Name = "Kwami" },
+                    new LGA { Id = 9, Name = "Nafada" },
+                    new LGA { Id = 10, Name = "Shongom" },
+                    new LGA { Id = 11, Name = "Yamaltu/Deba" },
+                }
+            },
+            new State
+            {
+                Id= 16,
+                Name = "Imo",
+                Capital = "Owerri",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Aboh Mbaise" },
+                    new LGA { Id = 2, Name = "Ahiazu Mbaise" },
+                    new LGA { Id = 3, Name = "Ehime Mbano" },
+                    new LGA { Id = 4, Name = "Ezinihitte" },
+                    new LGA { Id = 5, Name = "Ideato North" },
+                    new LGA { Id = 6, Name = "Ideato South" },
+                    new LGA { Id = 7, Name = "Ihitte/Uboma" },
+                    new LGA { Id = 8, Name = "Ikeduru" },
+                    new LGA { Id = 9, Name = "Isiala Mbano" },
+                    new LGA { Id = 10, Name = "Mbaitoli" },
+                    new LGA { Id = 11, Name = "Isu" },
+                    new LGA { Id = 12, Name = "Ngor Okpala" },
+                    new LGA { Id = 13, Name = "Njaba" },
+                    new LGA { Id = 14, Name = "Nkwerre" },
+                    new LGA { Id = 15, Name = "Nwangele" },
+                    new LGA { Id = 16, Name = "Obowo" },
+                    new LGA { Id = 17, Name = "Oguta" },
+                    new LGA { Id = 18, Name = "Ohaji/Egbema" },
+                    new LGA { Id = 19, Name = "Okigwe" },
+                    new LGA { Id = 20, Name = "Orlu" },
+                    new LGA { Id = 21, Name = "Orsu" },
+                    new LGA { Id = 22, Name = "Oru East" },
+                    new LGA { Id = 23, Name = "Oru West" },
+                    new LGA { Id = 24, Name = "Owerri Municipal" },
+                    new LGA { Id = 25, Name = "Owerri North" },
+                    new LGA { Id = 26, Name = "Unuimo" },
+                    new LGA { Id = 27, Name = "Owerri West" },
+                }
             }
         };
     }

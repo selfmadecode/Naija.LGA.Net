@@ -361,9 +361,32 @@ namespace Naija.Grid.Net
                     new LGA { Id = 17, Name = "Owan West" },
                     new LGA { Id = 18, Name = "Uhunmwonde" },
                 }
+            },
+            new State
+            {
+                Id = 13,
+                Name = "Ekiti",
+                Capital = "Ado Ekiti",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Ado Ekiti" },
+                    new LGA { Id = 2, Name = "Efon" },
+                    new LGA { Id = 3, Name = "Ekiti East" },
+                    new LGA { Id = 4, Name = "Ekiti South-West" },
+                    new LGA { Id = 5, Name = "Ekiti West" },
+                    new LGA { Id = 6, Name = "Emure" },
+                    new LGA { Id = 7, Name = "Gbonyin" },
+                    new LGA { Id = 8, Name = "Ido Osi" },
+                    new LGA { Id = 9, Name = "Ijero" },
+                    new LGA { Id = 10, Name = "Ikere" },
+                    new LGA { Id = 11, Name = "Ilejemeje" },
+                    new LGA { Id = 12, Name = "Irepodun/Ifelodun" },
+                    new LGA { Id = 13, Name = "Ikole" },
+                    new LGA { Id = 14, Name = "Ise/Orun" },
+                    new LGA { Id = 15, Name = "Moba" },
+                    new LGA { Id = 16, Name = "Oye" },
+                }
             }
-
-
         };
     }
 }

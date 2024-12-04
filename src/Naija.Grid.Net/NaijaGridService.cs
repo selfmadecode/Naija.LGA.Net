@@ -334,7 +334,35 @@ namespace Naija.Grid.Net
                     new LGA { Id = 12, Name = "Ohaukwu" },
                     new LGA { Id = 13, Name = "Onicha" },
                 }
+            },
+            new State
+            {
+                Id = 12,
+                Name = "Edo",
+                Capital = "Benin City",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Akoko-Edo" },
+                    new LGA { Id = 2, Name = "Egor" },
+                    new LGA { Id = 3, Name = "Esan Central" },
+                    new LGA { Id = 4, Name = "Esan North-East" },
+                    new LGA { Id = 5, Name = "Esan South-East" },
+                    new LGA { Id = 6, Name = "Esan West" },
+                    new LGA { Id = 7, Name = "Etsako Central" },
+                    new LGA { Id = 8, Name = "Etsako East" },
+                    new LGA { Id = 9, Name = "Etsako West" },
+                    new LGA { Id = 10, Name = "Igueben" },
+                    new LGA { Id = 11, Name = "Ikpoba Okha" },
+                    new LGA { Id = 12, Name = "Orhionmwon" },
+                    new LGA { Id = 13, Name = "Oredo" },
+                    new LGA { Id = 14, Name = "Ovia North-East" },
+                    new LGA { Id = 15, Name = "Ovia South-West" },
+                    new LGA { Id = 16, Name = "Owan East" },
+                    new LGA { Id = 17, Name = "Owan West" },
+                    new LGA { Id = 18, Name = "Uhunmwonde" },
+                }
             }
+
 
         };
     }

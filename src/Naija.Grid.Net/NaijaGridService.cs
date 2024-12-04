@@ -435,7 +435,7 @@ namespace Naija.Grid.Net
             },
             new State
             {
-                Id= 16,
+                Id = 16,
                 Name = "Imo",
                 Capital = "Owerri",
                 LGAs = new List<LGA>
@@ -468,7 +468,44 @@ namespace Naija.Grid.Net
                     new LGA { Id = 26, Name = "Unuimo" },
                     new LGA { Id = 27, Name = "Owerri West" },
                 }
+            },
+            new State
+            {
+                Id = 17,
+                Name = "Jigawa",
+                Capital = "Dutse",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Auyo" },
+                    new LGA { Id = 2, Name = "Babura" },
+                    new LGA { Id = 3, Name = "Buji" },
+                    new LGA { Id = 4, Name = "Biriniwa" },
+                    new LGA { Id = 5, Name = "Birnin Kudu" },
+                    new LGA { Id = 6, Name = "Dutse" },
+                    new LGA { Id = 7, Name = "Gagarawa" },
+                    new LGA { Id = 8, Name = "Garki" },
+                    new LGA { Id = 9, Name = "Gumel" },
+                    new LGA { Id = 10, Name = "Guri" },
+                    new LGA { Id = 11, Name = "Gwaram" },
+                    new LGA { Id = 12, Name = "Gwiwa" },
+                    new LGA { Id = 13, Name = "Hadejia" },
+                    new LGA { Id = 14, Name = "Jahun" },
+                    new LGA { Id = 15, Name = "Kafin Hausa" },
+                    new LGA { Id = 16, Name = "Kazaure" },
+                    new LGA { Id = 17, Name = "Kiri Kasama" },
+                    new LGA { Id = 18, Name = "Kiyawa" },
+                    new LGA { Id = 19, Name = "Kaugama" },
+                    new LGA { Id = 20, Name = "Maigatari" },
+                    new LGA { Id = 21, Name = "Malam Madori" },
+                    new LGA { Id = 22, Name = "Miga" },
+                    new LGA { Id = 23, Name = "Sule Tankarkar" },
+                    new LGA { Id = 24, Name = "Roni" },
+                    new LGA { Id = 25, Name = "Ringim" },
+                    new LGA { Id = 26, Name = "Yankwashi" },
+                    new LGA { Id = 27, Name = "Taura" },
+                }
             }
+
         };
     }
 }

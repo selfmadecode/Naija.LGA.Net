@@ -633,6 +633,36 @@ namespace Naija.Grid.Net
                     new LGA { Id = 34, Name = "Zango" },
                 }
             }
+            new State
+            {
+                Id = 21,
+                Name = "Kebbi",
+                Capital = "Birnin Kebbi",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Aleiro" },
+                    new LGA { Id = 2, Name = "Argungu" },
+                    new LGA { Id = 3, Name = "Arewa Dandi" },
+                    new LGA { Id = 4, Name = "Augie" },
+                    new LGA { Id = 5, Name = "Bagudo" },
+                    new LGA { Id = 6, Name = "Birnin Kebbi" },
+                    new LGA { Id = 7, Name = "Bunza" },
+                    new LGA { Id = 8, Name = "Dandi" },
+                    new LGA { Id = 9, Name = "Fakai" },
+                    new LGA { Id = 10, Name = "Gwandu" },
+                    new LGA { Id = 11, Name = "Jega" },
+                    new LGA { Id = 12, Name = "Kalgo" },
+                    new LGA { Id = 13, Name = "Koko/Besse" },
+                    new LGA { Id = 14, Name = "Maiyama" },
+                    new LGA { Id = 15, Name = "Ngaski" },
+                    new LGA { Id = 16, Name = "Shanga" },
+                    new LGA { Id = 17, Name = "Suru" },
+                    new LGA { Id = 18, Name = "Sakaba" },
+                    new LGA { Id = 19, Name = "Wasagu/Danko" },
+                    new LGA { Id = 20, Name = "Yauri" },
+                    new LGA { Id = 21, Name = "Zuru" },
+                }
+            }
 
 
 

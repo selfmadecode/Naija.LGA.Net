@@ -663,6 +663,36 @@ namespace Naija.Grid.Net
                     new LGA { Id = 21, Name = "Zuru" },
                 }
             }
+            new State
+            {
+                Id = 22,
+                Name = "Kogi",
+                Capital = "Lokoja",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Ajaokuta" },
+                    new LGA { Id = 2, Name = "Adavi" },
+                    new LGA { Id = 3, Name = "Ankpa" },
+                    new LGA { Id = 4, Name = "Bassa" },
+                    new LGA { Id = 5, Name = "Dekina" },
+                    new LGA { Id = 6, Name = "Ibaji" },
+                    new LGA { Id = 7, Name = "Idah" },
+                    new LGA { Id = 8, Name = "Igalamela Odolu" },
+                    new LGA { Id = 9, Name = "Ijumu" },
+                    new LGA { Id = 10, Name = "Kogi" },
+                    new LGA { Id = 11, Name = "Kabba/Bunu" },
+                    new LGA { Id = 12, Name = "Lokoja" },
+                    new LGA { Id = 13, Name = "Ofu" },
+                    new LGA { Id = 14, Name = "Mopa Muro" },
+                    new LGA { Id = 15, Name = "Ogori/Magongo" },
+                    new LGA { Id = 16, Name = "Okehi" },
+                    new LGA { Id = 17, Name = "Okene" },
+                    new LGA { Id = 18, Name = "Olamaboro" },
+                    new LGA { Id = 19, Name = "Omala" },
+                    new LGA { Id = 20, Name = "Yagba East" },
+                    new LGA { Id = 21, Name = "Yagba West" },
+                }
+            }
 
 
 

@@ -717,7 +717,37 @@ namespace Naija.Grid.Net
                     new LGA { Id = 15, Name = "Oyun" },
                     new LGA { Id = 16, Name = "Pategi" },
                 }
+            },
+            new State
+            {
+                Id = 24,
+                Name = "Lagos",
+                Capital = "Ikeja",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Agege" },
+                    new LGA { Id = 2, Name = "Ajeromi-Ifelodun" },
+                    new LGA { Id = 3, Name = "Alimosho" },
+                    new LGA { Id = 4, Name = "Amuwo-Odofin" },
+                    new LGA { Id = 5, Name = "Badagry" },
+                    new LGA { Id = 6, Name = "Apapa" },
+                    new LGA { Id = 7, Name = "Epe" },
+                    new LGA { Id = 8, Name = "Eti Osa" },
+                    new LGA { Id = 9, Name = "Ibeju-Lekki" },
+                    new LGA { Id = 10, Name = "Ifako-Ijaiye" },
+                    new LGA { Id = 11, Name = "Ikeja" },
+                    new LGA { Id = 12, Name = "Ikorodu" },
+                    new LGA { Id = 13, Name = "Kosofe" },
+                    new LGA { Id = 14, Name = "Lagos Island" },
+                    new LGA { Id = 15, Name = "Mushin" },
+                    new LGA { Id = 16, Name = "Lagos Mainland" },
+                    new LGA { Id = 17, Name = "Ojo" },
+                    new LGA { Id = 18, Name = "Oshodi-Isolo" },
+                    new LGA { Id = 19, Name = "Shomolu" },
+                    new LGA { Id = 20, Name = "Surulere Lagos State" },
+                }
             }
+
 
 
 

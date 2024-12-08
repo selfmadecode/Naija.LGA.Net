@@ -692,7 +692,33 @@ namespace Naija.Grid.Net
                     new LGA { Id = 20, Name = "Yagba East" },
                     new LGA { Id = 21, Name = "Yagba West" },
                 }
+            },
+            new State
+            {
+                Id = 23,
+                Name = "Kwara",
+                Capital = "Ilorin",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Asa" },
+                    new LGA { Id = 2, Name = "Baruten" },
+                    new LGA { Id = 3, Name = "Edu" },
+                    new LGA { Id = 4, Name = "Ilorin East" },
+                    new LGA { Id = 5, Name = "Ifelodun" },
+                    new LGA { Id = 6, Name = "Ilorin South" },
+                    new LGA { Id = 7, Name = "Ekiti Kwara State" },
+                    new LGA { Id = 8, Name = "Ilorin West" },
+                    new LGA { Id = 9, Name = "Irepodun" },
+                    new LGA { Id = 10, Name = "Isin" },
+                    new LGA { Id = 11, Name = "Kaiama" },
+                    new LGA { Id = 12, Name = "Moro" },
+                    new LGA { Id = 13, Name = "Offa" },
+                    new LGA { Id = 14, Name = "Oke Ero" },
+                    new LGA { Id = 15, Name = "Oyun" },
+                    new LGA { Id = 16, Name = "Pategi" },
+                }
             }
+
 
 
 

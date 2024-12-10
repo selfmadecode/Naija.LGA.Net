@@ -802,7 +802,37 @@ namespace Naija.Grid.Net
                     new LGA { Id = 24, Name = "Tafa" },
                     new LGA { Id = 25, Name = "Wushishi" },
                 }
+            },
+            new State
+            {
+                Id = 27,
+                Name = "Ogun",
+                Capital = "Abeokuta",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Abeokuta North" },
+                    new LGA { Id = 2, Name = "Abeokuta South" },
+                    new LGA { Id = 3, Name = "Ado-Odo/Ota" },
+                    new LGA { Id = 4, Name = "Egbado North" },
+                    new LGA { Id = 5, Name = "Ewekoro" },
+                    new LGA { Id = 6, Name = "Egbado South" },
+                    new LGA { Id = 7, Name = "Ijebu North" },
+                    new LGA { Id = 8, Name = "Ijebu East" },
+                    new LGA { Id = 9, Name = "Ifo" },
+                    new LGA { Id = 10, Name = "Ijebu Ode" },
+                    new LGA { Id = 11, Name = "Ijebu North East" },
+                    new LGA { Id = 12, Name = "Imeko Afon" },
+                    new LGA { Id = 13, Name = "Ikenne" },
+                    new LGA { Id = 14, Name = "Ipokia" },
+                    new LGA { Id = 15, Name = "Odeda" },
+                    new LGA { Id = 16, Name = "Obafemi Owode" },
+                    new LGA { Id = 17, Name = "Odogbolu" },
+                    new LGA { Id = 18, Name = "Remo North" },
+                    new LGA { Id = 19, Name = "Ogun Waterside" },
+                    new LGA { Id = 20, Name = "Shagamu" },
+                }
             }
+
 
 
 

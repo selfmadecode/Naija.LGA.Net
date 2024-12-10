@@ -746,6 +746,28 @@ namespace Naija.Grid.Net
                     new LGA { Id = 19, Name = "Shomolu" },
                     new LGA { Id = 20, Name = "Surulere Lagos State" },
                 }
+            },
+            new State
+            {
+                Id = 25,
+                Name = "Nasarawa",
+                Capital = "Lafia",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Akwanga" },
+                    new LGA { Id = 2, Name = "Awe" },
+                    new LGA { Id = 3, Name = "Doma" },
+                    new LGA { Id = 4, Name = "Karu" },
+                    new LGA { Id = 5, Name = "Keana" },
+                    new LGA { Id = 6, Name = "Keffi" },
+                    new LGA { Id = 7, Name = "Lafia" },
+                    new LGA { Id = 8, Name = "Kokona" },
+                    new LGA { Id = 9, Name = "Nasarawa Egon" },
+                    new LGA { Id = 10, Name = "Nasarawa" },
+                    new LGA { Id = 11, Name = "Obi" },
+                    new LGA { Id = 12, Name = "Toto" },
+                    new LGA { Id = 13, Name = "Wamba" },
+                }
             }
 
 

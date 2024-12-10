@@ -831,7 +831,35 @@ namespace Naija.Grid.Net
                     new LGA { Id = 19, Name = "Ogun Waterside" },
                     new LGA { Id = 20, Name = "Shagamu" },
                 }
+            },
+            new State
+            {
+                Id = 28,
+                Name = "Ondo",
+                Capital = "Akure",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Akoko North-East" },
+                    new LGA { Id = 2, Name = "Akoko North-West" },
+                    new LGA { Id = 3, Name = "Akoko South-West" },
+                    new LGA { Id = 4, Name = "Akoko South-East" },
+                    new LGA { Id = 5, Name = "Akure North" },
+                    new LGA { Id = 6, Name = "Akure South" },
+                    new LGA { Id = 7, Name = "Ese Odo" },
+                    new LGA { Id = 8, Name = "Idanre" },
+                    new LGA { Id = 9, Name = "Ifedore" },
+                    new LGA { Id = 10, Name = "Ilaje" },
+                    new LGA { Id = 11, Name = "Irele" },
+                    new LGA { Id = 12, Name = "Ile Oluji/Okeigbo" },
+                    new LGA { Id = 13, Name = "Odigbo" },
+                    new LGA { Id = 14, Name = "Okitipupa" },
+                    new LGA { Id = 15, Name = "Ondo West" },
+                    new LGA { Id = 16, Name = "Ose" },
+                    new LGA { Id = 17, Name = "Ondo East" },
+                    new LGA { Id = 18, Name = "Owo" },
+                }
             }
+
 
 
 

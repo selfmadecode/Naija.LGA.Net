@@ -768,7 +768,42 @@ namespace Naija.Grid.Net
                     new LGA { Id = 12, Name = "Toto" },
                     new LGA { Id = 13, Name = "Wamba" },
                 }
+            },
+            new State
+            {
+                Id= 26,
+                Name = "Niger",
+                Capital = "Minna",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Agaie" },
+                    new LGA { Id = 2, Name = "Agwara" },
+                    new LGA { Id = 3, Name = "Bida" },
+                    new LGA { Id = 4, Name = "Borgu" },
+                    new LGA { Id = 5, Name = "Bosso" },
+                    new LGA { Id = 6, Name = "Chanchaga" },
+                    new LGA { Id = 7, Name = "Edati" },
+                    new LGA { Id = 8, Name = "Gbako" },
+                    new LGA { Id = 9, Name = "Gurara" },
+                    new LGA { Id = 10, Name = "Katcha" },
+                    new LGA { Id = 11, Name = "Kontagora" },
+                    new LGA { Id = 12, Name = "Lapai" },
+                    new LGA { Id = 13, Name = "Lavun" },
+                    new LGA { Id = 14, Name = "Mariga" },
+                    new LGA { Id = 15, Name = "Magama" },
+                    new LGA { Id = 16, Name = "Mokwa" },
+                    new LGA { Id = 17, Name = "Mashegu" },
+                    new LGA { Id = 18, Name = "Moya" },
+                    new LGA { Id = 19, Name = "Paikoro" },
+                    new LGA { Id = 20, Name = "Rafi" },
+                    new LGA { Id = 21, Name = "Rijau" },
+                    new LGA { Id = 22, Name = "Shiroro" },
+                    new LGA { Id = 23, Name = "Suleja" },
+                    new LGA { Id = 24, Name = "Tafa" },
+                    new LGA { Id = 25, Name = "Wushishi" },
+                }
             }
+
 
 
 

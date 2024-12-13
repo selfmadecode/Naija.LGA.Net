@@ -897,7 +897,50 @@ namespace Naija.Grid.Net
                     new LGA { Id = 29, Name = "Orolu" },
                     new LGA { Id = 30, Name = "Osogbo" },
                 }
+            },
+            new State
+            {
+                Id = 30,
+                Name = "Oyo",
+                Capital = "Ibadan",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Afijio" },
+                    new LGA { Id = 2, Name = "Akinyele" },
+                    new LGA { Id = 3, Name = "Atiba" },
+                    new LGA { Id = 4, Name = "Atisbo" },
+                    new LGA { Id = 5, Name = "Egbeda" },
+                    new LGA { Id = 6, Name = "Ibadan North" },
+                    new LGA { Id = 7, Name = "Ibadan North-East" },
+                    new LGA { Id = 8, Name = "Ibadan North-West" },
+                    new LGA { Id = 9, Name = "Ibadan South-East" },
+                    new LGA { Id = 10, Name = "Ibarapa Central" },
+                    new LGA { Id = 11, Name = "Ibadan South-West" },
+                    new LGA { Id = 12, Name = "Ibarapa East" },
+                    new LGA { Id = 13, Name = "Ido" },
+                    new LGA { Id = 14, Name = "Ibarapa North" },
+                    new LGA { Id = 15, Name = "Irepo" },
+                    new LGA { Id = 16, Name = "Iseyin" },
+                    new LGA { Id = 17, Name = "Itesiwaju" },
+                    new LGA { Id = 18, Name = "Iwajowa" },
+                    new LGA { Id = 19, Name = "Kajola" },
+                    new LGA { Id = 20, Name = "Lagelu" },
+                    new LGA { Id = 21, Name = "Ogbomosho North" },
+                    new LGA { Id = 22, Name = "Ogbomosho South" },
+                    new LGA { Id = 23, Name = "Ogo Oluwa" },
+                    new LGA { Id = 24, Name = "Olorunsogo" },
+                    new LGA { Id = 25, Name = "Oluyole" },
+                    new LGA { Id = 26, Name = "Ona Ara" },
+                    new LGA { Id = 27, Name = "Orelope" },
+                    new LGA { Id = 28, Name = "Ori Ire" },
+                    new LGA { Id = 29, Name = "Oyo" },
+                    new LGA { Id = 30, Name = "Oyo East" },
+                    new LGA { Id = 31, Name = "Saki East" },
+                    new LGA { Id = 32, Name = "Saki West" },
+                    new LGA { Id = 33, Name = "Surulere Oyo State" },
+                }
             }
+
         };
     }
 }

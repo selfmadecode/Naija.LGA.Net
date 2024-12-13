@@ -589,7 +589,7 @@ namespace Naija.Grid.Net
                     new LGA { Id = 43, Name = "Warawa" },
                     new LGA { Id = 44, Name = "Wudil" },
                 }
-            }
+            },
             new State
             {
                 Id = 20,
@@ -632,7 +632,7 @@ namespace Naija.Grid.Net
                     new LGA { Id = 33, Name = "Sandamu" },
                     new LGA { Id = 34, Name = "Zango" },
                 }
-            }
+            },
             new State
             {
                 Id = 21,
@@ -662,7 +662,7 @@ namespace Naija.Grid.Net
                     new LGA { Id = 20, Name = "Yauri" },
                     new LGA { Id = 21, Name = "Zuru" },
                 }
-            }
+            },
             new State
             {
                 Id = 22,

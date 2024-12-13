@@ -858,15 +858,46 @@ namespace Naija.Grid.Net
                     new LGA { Id = 17, Name = "Ondo East" },
                     new LGA { Id = 18, Name = "Owo" },
                 }
+            },
+            new State
+            {
+                Id = 29,
+                Name = "Osun",
+                Capital = "Oshogbo",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Aiyedire" },
+                    new LGA { Id = 2, Name = "Atakunmosa West" },
+                    new LGA { Id = 3, Name = "Atakunmosa East" },
+                    new LGA { Id = 4, Name = "Aiyedaade" },
+                    new LGA { Id = 5, Name = "Boluwaduro" },
+                    new LGA { Id = 6, Name = "Boripe" },
+                    new LGA { Id = 7, Name = "Ife East" },
+                    new LGA { Id = 8, Name = "Ede South" },
+                    new LGA { Id = 9, Name = "Ife North" },
+                    new LGA { Id = 10, Name = "Ede North" },
+                    new LGA { Id = 11, Name = "Ife South" },
+                    new LGA { Id = 12, Name = "Ejigbo" },
+                    new LGA { Id = 13, Name = "Ife Central" },
+                    new LGA { Id = 14, Name = "Ifedayo" },
+                    new LGA { Id = 15, Name = "Egbedore" },
+                    new LGA { Id = 16, Name = "Ila" },
+                    new LGA { Id = 17, Name = "Ifelodun" },
+                    new LGA { Id = 18, Name = "Ilesa East" },
+                    new LGA { Id = 19, Name = "Ilesa West" },
+                    new LGA { Id = 20, Name = "Irepodun" },
+                    new LGA { Id = 21, Name = "Irewole" },
+                    new LGA { Id = 22, Name = "Isokan" },
+                    new LGA { Id = 23, Name = "Iwo" },
+                    new LGA { Id = 24, Name = "Obokun" },
+                    new LGA { Id = 25, Name = "Odo Otin" },
+                    new LGA { Id = 26, Name = "Ola Oluwa" },
+                    new LGA { Id = 27, Name = "Olorunda" },
+                    new LGA { Id = 28, Name = "Oriade" },
+                    new LGA { Id = 29, Name = "Orolu" },
+                    new LGA { Id = 30, Name = "Osogbo" },
+                }
             }
-
-
-
-
-
-
-
-
         };
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Naija.Grid.Net
 {
-    internal class NaijaGridService
+    internal sealed class NaijaGridService
     {
         public static List<State> GetAllStates()
         {
@@ -939,7 +939,34 @@ namespace Naija.Grid.Net
                     new LGA { Id = 32, Name = "Saki West" },
                     new LGA { Id = 33, Name = "Surulere Oyo State" },
                 }
+            },
+            new State
+            {
+                Id = 31,
+                Name = "Plateau",
+                Capital = "Jos",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Bokkos" },
+                    new LGA { Id = 2, Name = "Barkin Ladi" },
+                    new LGA { Id = 3, Name = "Bassa" },
+                    new LGA { Id = 4, Name = "Jos East" },
+                    new LGA { Id = 5, Name = "Jos North" },
+                    new LGA { Id = 6, Name = "Jos South" },
+                    new LGA { Id = 7, Name = "Kanam" },
+                    new LGA { Id = 8, Name = "Kanke" },
+                    new LGA { Id = 9, Name = "Langtang South" },
+                    new LGA { Id = 10, Name = "Langtang North" },
+                    new LGA { Id = 11, Name = "Mangu" },
+                    new LGA { Id = 12, Name = "Mikang" },
+                    new LGA { Id = 13, Name = "Pankshin" },
+                    new LGA { Id = 14, Name = "Qua'an Pan" },
+                    new LGA { Id = 15, Name = "Riyom" },
+                    new LGA { Id = 16, Name = "Shendam" },
+                    new LGA { Id = 17, Name = "Wase" },
+                }
             }
+
 
         };
     }

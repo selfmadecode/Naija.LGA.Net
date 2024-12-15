@@ -965,9 +965,39 @@ namespace Naija.Grid.Net
                     new LGA { Id = 16, Name = "Shendam" },
                     new LGA { Id = 17, Name = "Wase" },
                 }
+            },
+            new State
+            {
+                Id = 32,
+                Name = "Rivers",
+                Capital = "Port Harcourt",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Abua/Odual" },
+                    new LGA { Id = 2, Name = "Ahoada East" },
+                    new LGA { Id = 3, Name = "Ahoada West" },
+                    new LGA { Id = 4, Name = "Andoni" },
+                    new LGA { Id = 5, Name = "Akuku-Toru" },
+                    new LGA { Id = 6, Name = "Asari-Toru" },
+                    new LGA { Id = 7, Name = "Bonny" },
+                    new LGA { Id = 8, Name = "Degema" },
+                    new LGA { Id = 9, Name = "Emuoha" },
+                    new LGA { Id = 10, Name = "Eleme" },
+                    new LGA { Id = 11, Name = "Ikwerre" },
+                    new LGA { Id = 12, Name = "Etche" },
+                    new LGA { Id = 13, Name = "Gokana" },
+                    new LGA { Id = 14, Name = "Khana" },
+                    new LGA { Id = 15, Name = "Obio/Akpor" },
+                    new LGA { Id = 16, Name = "Ogba/Egbema/Ndoni" },
+                    new LGA { Id = 17, Name = "Ogu/Bolo" },
+                    new LGA { Id = 18, Name = "Okrika" },
+                    new LGA { Id = 19, Name = "Omuma" },
+                    new LGA { Id = 20, Name = "Opobo/Nkoro" },
+                    new LGA { Id = 21, Name = "Oyigbo" },
+                    new LGA { Id = 22, Name = "Port Harcourt" },
+                    new LGA { Id = 23, Name = "Tai" },
+                }
             }
-
-
         };
     }
 }

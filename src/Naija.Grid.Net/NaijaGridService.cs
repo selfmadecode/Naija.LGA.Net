@@ -997,7 +997,40 @@ namespace Naija.Grid.Net
                     new LGA { Id = 22, Name = "Port Harcourt" },
                     new LGA { Id = 23, Name = "Tai" },
                 }
+            },
+            new State
+            {
+                Id = 33,
+                Name = "Sokoto",
+                Capital = "Sokoto",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Gudu" },
+                    new LGA { Id = 2, Name = "Gwadabawa" },
+                    new LGA { Id = 3, Name = "Illela" },
+                    new LGA { Id = 4, Name = "Isa" },
+                    new LGA { Id = 5, Name = "Kebbe" },
+                    new LGA { Id = 6, Name = "Kware" },
+                    new LGA { Id = 7, Name = "Rabah" },
+                    new LGA { Id = 8, Name = "Sabon Birni" },
+                    new LGA { Id = 9, Name = "Shagari" },
+                    new LGA { Id = 10, Name = "Silame" },
+                    new LGA { Id = 11, Name = "Sokoto North" },
+                    new LGA { Id = 12, Name = "Sokoto South" },
+                    new LGA { Id = 13, Name = "Tambuwal" },
+                    new LGA { Id = 14, Name = "Tangaza" },
+                    new LGA { Id = 15, Name = "Tureta" },
+                    new LGA { Id = 16, Name = "Wamako" },
+                    new LGA { Id = 17, Name = "Wurno" },
+                    new LGA { Id = 18, Name = "Yabo" },
+                    new LGA { Id = 19, Name = "Binji" },
+                    new LGA { Id = 20, Name = "Bodinga" },
+                    new LGA { Id = 21, Name = "Dange Shuni" },
+                    new LGA { Id = 22, Name = "Goronyo" },
+                    new LGA { Id = 23, Name = "Gada" },
+                }
             }
+
         };
     }
 }

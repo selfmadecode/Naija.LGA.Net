@@ -1054,6 +1054,32 @@ namespace Naija.Grid.Net
                     new LGA { Id = 15, Name = "Yorro" },
                     new LGA { Id = 16, Name = "Zing" },
                 }
+            },
+            new State
+            {
+                Id = 35,
+                Name = "Yobe",
+                Capital = "Damaturu",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Bade" },
+                    new LGA { Id = 2, Name = "Bursari" },
+                    new LGA { Id = 3, Name = "Damaturu" },
+                    new LGA { Id = 4, Name = "Fika" },
+                    new LGA { Id = 5, Name = "Fune" },
+                    new LGA { Id = 6, Name = "Geidam" },
+                    new LGA { Id = 7, Name = "Gujba" },
+                    new LGA { Id = 8, Name = "Gulani" },
+                    new LGA { Id = 9, Name = "Jakusko" },
+                    new LGA { Id = 10, Name = "Karasuwa" },
+                    new LGA { Id = 11, Name = "Machina" },
+                    new LGA { Id = 12, Name = "Nangere" },
+                    new LGA { Id = 13, Name = "Nguru" },
+                    new LGA { Id = 14, Name = "Potiskum" },
+                    new LGA { Id = 15, Name = "Tarmuwa" },
+                    new LGA { Id = 16, Name = "Yunusari" },
+                    new LGA { Id = 17, Name = "Yusufari" },
+                }
             }
 
         };

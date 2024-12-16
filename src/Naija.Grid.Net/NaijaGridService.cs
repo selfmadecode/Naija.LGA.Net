@@ -1029,6 +1029,31 @@ namespace Naija.Grid.Net
                     new LGA { Id = 22, Name = "Goronyo" },
                     new LGA { Id = 23, Name = "Gada" },
                 }
+            },
+            new State
+            {
+                Id = 34,
+                Name = "Taraba",
+                Capital = "Jalingo",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Ardo Kola" },
+                    new LGA { Id = 2, Name = "Bali" },
+                    new LGA { Id = 3, Name = "Donga" },
+                    new LGA { Id = 4, Name = "Gashaka" },
+                    new LGA { Id = 5, Name = "Gassol" },
+                    new LGA { Id = 6, Name = "Ibi" },
+                    new LGA { Id = 7, Name = "Jalingo" },
+                    new LGA { Id = 8, Name = "Karim Lamido" },
+                    new LGA { Id = 9, Name = "Kumi" },
+                    new LGA { Id = 10, Name = "Lau" },
+                    new LGA { Id = 11, Name = "Sardauna" },
+                    new LGA { Id = 12, Name = "Takum" },
+                    new LGA { Id = 13, Name = "Ussa" },
+                    new LGA { Id = 14, Name = "Wukari" },
+                    new LGA { Id = 15, Name = "Yorro" },
+                    new LGA { Id = 16, Name = "Zing" },
+                }
             }
 
         };

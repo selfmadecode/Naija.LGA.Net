@@ -1080,8 +1080,30 @@ namespace Naija.Grid.Net
                     new LGA { Id = 16, Name = "Yunusari" },
                     new LGA { Id = 17, Name = "Yusufari" },
                 }
+            },
+            new State
+            {
+                Id = 36,
+                Name = "Zamfara",
+                Capital = "Gusau",
+                LGAs = new List<LGA>
+                {
+                    new LGA { Id = 1, Name = "Anka" },
+                    new LGA { Id = 2, Name = "Birnin Magaji/Kiyaw" },
+                    new LGA { Id = 3, Name = "Bakura" },
+                    new LGA { Id = 4, Name = "Bukkuyum" },
+                    new LGA { Id = 5, Name = "Bungudu" },
+                    new LGA { Id = 6, Name = "Gummi" },
+                    new LGA { Id = 7, Name = "Gusau" },
+                    new LGA { Id = 8, Name = "Kaura Namoda" },
+                    new LGA { Id = 9, Name = "Maradun" },
+                    new LGA { Id = 10, Name = "Shinkafi" },
+                    new LGA { Id = 11, Name = "Maru" },
+                    new LGA { Id = 12, Name = "Talata Mafara" },
+                    new LGA { Id = 13, Name = "Tsafe" },
+                    new LGA { Id = 14, Name = "Zurmi" },
+                }
             }
-
         };
     }
 }

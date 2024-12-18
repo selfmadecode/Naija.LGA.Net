@@ -1,15 +1,11 @@
 ﻿using Naija.Grid.Net.Model;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Naija.Grid.Net
 {
-    internal sealed class NaijaGridService
+    internal static class NaijaGridService
     {
-        public static List<State> GetAllStates()
-        {
-            return States;
-        }
-
         private static readonly List<State> States = new List<State>
         {
             new State
@@ -1105,5 +1101,10 @@ namespace Naija.Grid.Net
                 }
             }
         };
+
+        public static IEnumerable<State> GetStates()
+        {
+            return States.ToList();
+        }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Naija.Grid.Net
 {
-    internal static class NaijaGridService
+    public static class NaijaGridService
     {
         private static readonly List<State> States = new List<State>
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Naija.Grid.Net.Model
 {
-    internal class State
+    public class State
     {
         public int Id { get; set; }
         public string Name { get; set; }

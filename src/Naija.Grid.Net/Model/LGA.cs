@@ -1,6 +1,6 @@
 ﻿namespace Naija.Grid.Net.Model
 {
-    internal class LGA
+    public class LGA
     {
         public int Id { get; set; }
         public string Name { get; set; }

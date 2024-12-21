@@ -1,4 +1,5 @@
 ﻿using Naija.Grid.Net.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -1105,6 +1106,16 @@ namespace Naija.Grid.Net
         public static IEnumerable<State> GetStates()
         {
             return States.ToList();
+        }
+
+        public static State GetState(int id)
+        {
+            return States.FirstOrDefault(x => x.Id == id);
+        }
+
+        public static State GetState(string name)
+        {
+            return States.FirstOrDefault(x => x.Name.ToLower() == name.ToLower());
         }
     }
 }

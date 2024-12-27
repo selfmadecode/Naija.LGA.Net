@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3C8E3D8-8BE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Naija.Grid.Net", "Naija.Grid.Net", "{EB8A4CEA-73E1-4062-A17D-62CBF2A4381D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naija.Grid.Net", "src\Naija.Grid.Net\Naija.Grid.Net.csproj", "{77D06D10-5BE9-44F1-B34B-5DF7ACB4F15D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naija.LGA.Net", "src\Naija.Grid.Net\Naija.LGA.Net.csproj", "{77D06D10-5BE9-44F1-B34B-5DF7ACB4F15D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naija.Grid.App", "Naija.Grid.App\Naija.Grid.App.csproj", "{B7301CC7-3DEC-479E-AC79-7A19BB229B9D}"
 EndProject

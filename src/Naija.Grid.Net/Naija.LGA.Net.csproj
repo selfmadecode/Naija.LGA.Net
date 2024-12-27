@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Nigerian States and LGAs</Title>
+    <Authors>selfmadecode</Authors>
+    <Description>A lightweight library designed to provide information about Nigerian states and their respective Local Government Areas (LGAs).</Description>
+    <PackageProjectUrl>https://github.com/selfmadecode/Naija.LGA.Net</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/selfmadecode/Naija.LGA.Net</RepositoryUrl>
+    <PackageTags>LGA;Nigeria; States and LGAs; Nigerian Geography; Local Government Areas; State Information; Geographic Data; Nigerian Development; LGA Lookup; State</PackageTags>
+    <PackageReleaseNotes>Version 1.0.0
+Initial Release
+
+- Features:  
+  - Comprehensive data set of Nigeria's states and their respective LGAs.  
+  - Retrieve a list of all states using `GetStates`.  
+  - Fetch details of a specific state using its ID or name with `GetState`.  
+  - Optimized for simplicity and ease of integration into applications.  
+  - Designed to support applications requiring Nigerian geographic data.  
+
+- Usage Examples:
+  var states = NaijaLGA.GetStates();
+  Console.WriteLine(states.Count());
+
+  var state = NaijaLGA.GetState(36);
+  var imo = NaijaLGA.GetState("Imo");
+  
+
+- Future Enhancements:
+  - Addition of utility methods for more specific queries.  
+  - Potential integration of population and demographic data.  
+  - API support for dynamic data fetching.  
+
+</PackageReleaseNotes>
+    <PackageIcon>naijagridicon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\naijagridicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

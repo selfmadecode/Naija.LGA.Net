@@ -1,7 +1,7 @@
-# Naija.Grid.Net
+# Naija.LGA.Net
 
-# The **NaijaGrid** package provides a simple and efficient way to retrieve data about Nigerian states and their Local Government Areas (LGAs).
-# Designed for developers working with location-based services or administrative data in Nigeria, this package simplifies access to structured state and LGA data.
+This package provides a simple way to retrieve data about Nigerian states and their Local Government Areas (LGAs).
+Designed for developers working with location-based services or administrative data in Nigeria.
 
 
 ## Features
@@ -17,20 +17,20 @@
 Add the package to your project via your package manager. Example for **NuGet Package Manager**:
 
 ```bash
-Install-Package Naija.Grid.Net
+Install-Package Naija.LGA.Net
 ```
 
 Or via the .NET CLI:
 
 ```bash
-dotnet add package Naija.Grid.Net
+dotnet add package Naija.LGA.Net
 ```
 
 ---
 
 ## Usage
 
-Below is an example of how to use the **NaijaGridService** to access state and LGA data.
+Below is an example of how to use the **NaijaLGA** to access state and LGA data.
 
 ```csharp
 using System;
@@ -41,15 +41,15 @@ class Program
     static void Main(string[] args)
     {
         // Retrieve all states
-        var states = NaijaGridService.GetStates();
+        var states = NaijaLGA.GetStates();
         Console.WriteLine($"Total states: {states.Count()}");
 
         // Retrieve a state by ID
-        var state = NaijaGridService.GetState(36); // Example: Get state with ID 36
+        var state = NaijaLGA.GetState(36); // Example: Get state with ID 36
         Console.WriteLine($"State Name: {state.Name}");
 
         // Retrieve a state by name
-        var imo = NaijaGridService.GetState("Imo");
+        var imo = NaijaLGA.GetState("Imo");
         Console.WriteLine($"Imo LGAs: {string.Join(", ", imo.LGAs.Select(l => l.Name))}");
     }
 }
@@ -61,7 +61,7 @@ class Program
    - Returns a list of all Nigerian states.
    - Example:
      ```csharp
-     var states = NaijaGridService.GetStates();
+     var states = NaijaLGA.GetStates();
      Console.WriteLine(states.Count());
      ```
 
@@ -69,7 +69,7 @@ class Program
    - Retrieves a specific state by its ID.
    - Example:
      ```csharp
-     var state = NaijaGridService.GetState(36);
+     var state = NaijaLGA.GetState(36);
      Console.WriteLine(state.Name);
      ```
 
@@ -77,7 +77,7 @@ class Program
    - Retrieves a state by its name (case-insensitive).
    - Example:
      ```csharp
-     var imo = NaijaGridService.GetState("Imo");
+     var imo = NaijaLGA.GetState("Imo");
      ```
 
 ---
@@ -89,7 +89,7 @@ class Program
 - **Id** (int): Unique identifier for the state.
 - **Name** (string): Name of the state.
 - **Capital** (string): Capital for the state.
-- **LGAs** (List<LGA>): List of Local Government Areas within the state.
+- **LGAs** (List<Lga>): List of Local Government Areas within the state.
 
 ### LGA Object
 
@@ -100,11 +100,7 @@ class Program
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue in the repository.
+Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue in the [repository](https://github.com/selfmadecode/Naija.LGA.Net)
 
 ---
-
-## License
-
-This package is licensed under the MIT License. See `LICENSE` for details.
 

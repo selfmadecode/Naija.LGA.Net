@@ -1,12 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Naija.Grid.Net;
+using Naija;
+using Naija.LGA.Net;
 
-var states = NaijaGridService.GetStates();
+var states = NaijaLGA.GetStates();
 
 Console.WriteLine(states.Count());
 
-var state = NaijaGridService.GetState(36);
-var imo = NaijaGridService.GetState("Imo");
+var state = NaijaLGA.GetState(36);
+var imo = NaijaLGA.GetState("Imo");
 
 Console.WriteLine(state.Name);
 Console.WriteLine(imo.Name);

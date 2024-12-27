@@ -1,13 +1,12 @@
-﻿using Naija.Grid.Net.Model;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Naija.Grid.Net
+namespace Naija.LGA.Net
 {
     internal class NaijaUtils
     {
         public static IEnumerable<State> GetAllStates()
         {
-            return NaijaGridService.GetStates();
+            return NaijaLGA.GetStates();
         }
     }
 }

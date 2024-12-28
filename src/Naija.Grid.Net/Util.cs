@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Naija.Model;
 
-namespace Naija
+namespace Naija.Utilities
 {
     public static class Util
     {

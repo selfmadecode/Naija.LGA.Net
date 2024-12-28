@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Naija
+namespace Naija.Model
 {
     public class State
     {

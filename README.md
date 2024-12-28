@@ -30,26 +30,27 @@ dotnet add package Naija.LGA.Net
 
 ## Usage
 
-Below is an example of how to use the **NaijaLGA** to access state and LGA data.
+Below is an example of how to use the package to access state and LGA data.
 
 ```csharp
 using System;
 using System.Linq;
+using Niaja;
 
 class Program
 {
     static void Main(string[] args)
     {
         // Retrieve all states
-        var states = Naija.GetStatesWithLgas();
+        var states = Nigeria.GetStatesWithLgas();
         Console.WriteLine($"Total states: {states.Count()}");
 
         // Retrieve a state by ID
-        var state = Naija.GetStateWithLgas(36); // Example: Get state with ID 36
+        var state = Nigeria.GetStateWithLgas(36); // Example: Get state with ID 36
         Console.WriteLine($"State Name: {state.Name}");
 
         // Retrieve a state by name
-        var imo = Naija.GetStateWithLgas("Imo");
+        var imo = Nigeria.GetStateWithLgas("Imo");
         Console.WriteLine($"Imo LGAs: {string.Join(", ", imo.LGAs.Select(l => l.Name))}");
     }
 }
@@ -61,7 +62,7 @@ class Program
    - Returns a list of all Nigerian states.
    - Example:
      ```csharp
-     var states = Naija.GetStatesWithLgas();
+     var states = Nigeria.GetStatesWithLgas();
      Console.WriteLine(states.Count());
      ```
 
@@ -69,7 +70,7 @@ class Program
    - Retrieves a specific state by its ID.
    - Example:
      ```csharp
-     var state = Naija.GetStateWithLgas(36);
+     var state = Nigeria.GetStateWithLgas(36);
      Console.WriteLine(state.Name);
      ```
 
@@ -77,7 +78,7 @@ class Program
    - Retrieves a state by its name (case-insensitive).
    - Example:
      ```csharp
-     var imo = Naija.GetStateWithLgas("Imo");
+     var imo = Nigeria.GetStateWithLgas("Imo");
      ```
 
 ---

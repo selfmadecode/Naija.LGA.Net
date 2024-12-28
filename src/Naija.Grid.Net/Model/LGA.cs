@@ -1,4 +1,4 @@
-﻿namespace Naija
+﻿namespace Naija.Model
 {
     public class Lga
     {

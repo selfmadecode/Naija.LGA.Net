@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Naija.Model;
+using Naija.Utilities;
 
 namespace Naija
 {
-    public static class Naija
+    public static class Nigeria
     {
         private static readonly List<State> States = Util.InitializeStates();
 

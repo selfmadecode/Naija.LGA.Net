@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<DocumentationFile>bin\Release\netstandard2.0\Naija.xml</DocumentationFile>
     <Title>Nigerian States and LGAs</Title>
     <Authors>selfmadecode</Authors>
     <Description>A lightweight library designed to provide information about Nigerian states and their respective Local Government Areas (LGAs).</Description>
@@ -9,34 +11,21 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/selfmadecode/Naija.LGA.Net</RepositoryUrl>
     <PackageTags>LGA;Nigeria; States and LGAs; Nigerian Geography; Local Government Areas; State Information; Geographic Data; Nigerian Development; LGA Lookup; State</PackageTags>
-    <PackageReleaseNotes>
-		Version 2.0.0
-		- Enhancements and Changes:
-		-The class and method names have been updated to better reflect the inclusion of Local Government Areas (LGAs).
-		- GetState(id) has been renamed to GetStateWithLgas(id)
-		- GetStates has been renamed to GetStatesWithLgas
+    <PackageReleaseNotes>Version 2.0.1
+We change the name of the class from Naija to Nigeria, methods like Naija.GetStatesWithLga will now be Nigeria.GetStatesWithLgas
+  
+  Bug Fixes
+  None in this release.
 
-		- Usage changes
-		var states = Naija.GetStatesWithLgas();
-		Console.WriteLine(states.Count());
-
-		var state = Naija.GetStateWithLgas(36);
-		var imo = Naija.GetState("Imo");
-
-		Bug Fixes
-		None in this release.
-
-		- Future Enhancements:
-		- Addition of utility methods for more specific queries.
-		- Potential integration of population and demographic data.
-		- API support for dynamic data fetching.
-
-	</PackageReleaseNotes>
+ </PackageReleaseNotes>
     <PackageIcon>naijagridicon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>2.0.0</Version>
-  </PropertyGroup>
+    <Version>2.0.1-rc1</Version>		
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="bin\Release\netstandard2.0\Naija.xml" Pack="true" PackagePath="bin\Debug\netstandard2.0\Naija.xml" />
+	</ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\LICENSE.txt">

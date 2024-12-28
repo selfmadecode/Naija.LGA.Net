@@ -9,23 +9,21 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/selfmadecode/Naija.LGA.Net</RepositoryUrl>
     <PackageTags>LGA;Nigeria; States and LGAs; Nigerian Geography; Local Government Areas; State Information; Geographic Data; Nigerian Development; LGA Lookup; State</PackageTags>
-    <PackageReleaseNotes>Version 1.0.0
-Initial Release
+    <PackageReleaseNotes>Version 2.0.0
+- Enhancements and Changes:  
+  -The class and method names have been updated to better reflect the inclusion of Local Government Areas (LGAs).
+ - GetState(id) has been renamed to GetStateWithLgas(id)
+ - GetStates has been renamed to GetStatesWithLgas  
 
-- Features:  
-  - Comprehensive data set of Nigeria's states and their respective LGAs.  
-  - Retrieve a list of all states using `GetStates`.  
-  - Fetch details of a specific state using its ID or name with `GetState`.  
-  - Optimized for simplicity and ease of integration into applications.  
-  - Designed to support applications requiring Nigerian geographic data.  
-
-- Usage Examples:
-  var states = NaijaLGA.GetStates();
+- Usage changes
+  var states = Naija.GetStatesWithLgas(); 
   Console.WriteLine(states.Count());
 
-  var state = NaijaLGA.GetState(36);
+  var state = Naija.GetStateWithLgas(36); 
   var imo = NaijaLGA.GetState("Imo");
   
+Bug Fixes
+None in this release.
 
 - Future Enhancements:
   - Addition of utility methods for more specific queries.  
@@ -36,6 +34,7 @@ Initial Release
     <PackageIcon>naijagridicon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

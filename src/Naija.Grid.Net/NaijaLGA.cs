@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Naija
@@ -12,7 +13,7 @@ namespace Naija
                 Id = 1,
                 Name = "Abia",
                 Capital = "Umuahia",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Aba North"},
                     new Lga { Id = 2, Name = "Aba South"},
@@ -38,7 +39,7 @@ namespace Naija
                 Id = 2,
                 Name = "Adamawa",
                 Capital = "Yola",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Demsa" },
                     new Lga { Id = 2, Name = "Fufure" },
@@ -68,7 +69,7 @@ namespace Naija
                 Id = 3,
                 Name = "Akwa Ibom",
                 Capital = "Uyo",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Abak"},
                     new Lga { Id = 2, Name = "Eastern Obolo"},
@@ -108,7 +109,7 @@ namespace Naija
                 Id = 4,
                 Name = "Anambra",
                 Capital = "Awka",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Aguata" },
                     new Lga { Id = 2, Name = "Anambra East" },
@@ -138,7 +139,7 @@ namespace Naija
                 Id = 5,
                 Name = "Bauchi",
                 Capital = "Bauchi",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Alkaleri" },
                     new Lga { Id = 2, Name = "Bauchi" },
@@ -167,7 +168,7 @@ namespace Naija
                 Id = 6,
                 Name = "Bayelsa",
                 Capital = "Yenagoa",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Brass" },
                     new Lga { Id = 2, Name = "Ekeremor" },
@@ -184,7 +185,7 @@ namespace Naija
                 Id = 7,
                 Name = "Benue",
                 Capital = "Yenagoa",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Agatu" },
                     new Lga { Id = 2, Name = "Apa" },
@@ -216,7 +217,7 @@ namespace Naija
                 Id = 8,
                 Name = "Borno",
                 Capital = "Maiduguri",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Abadam" },
                     new Lga { Id = 2, Name = "Askira/Uba" },
@@ -252,7 +253,7 @@ namespace Naija
                 Id = 9,
                 Name = "Cross River",
                 Capital = "Calabar",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Abi" },
                     new Lga { Id = 2, Name = "Akamkpa" },
@@ -279,7 +280,7 @@ namespace Naija
                 Id = 10,
                 Name = "Delta",
                 Capital = "Asaba",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Aniocha North" },
                     new Lga { Id = 2, Name = "Aniocha South" },
@@ -313,7 +314,7 @@ namespace Naija
                 Id = 11,
                 Name = "Ebonyi",
                 Capital = "Abakaliki",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Abakaliki" },
                     new Lga { Id = 2, Name = "Afikpo North" },
@@ -335,7 +336,7 @@ namespace Naija
                 Id = 12,
                 Name = "Edo",
                 Capital = "Benin City",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Akoko-Edo" },
                     new Lga { Id = 2, Name = "Egor" },
@@ -362,7 +363,7 @@ namespace Naija
                 Id = 13,
                 Name = "Ekiti",
                 Capital = "Ado Ekiti",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Ado Ekiti" },
                     new Lga { Id = 2, Name = "Efon" },
@@ -387,7 +388,7 @@ namespace Naija
                 Id = 14,
                 Name = "Enugu",
                 Capital = "Enugu",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Awgu" },
                     new Lga { Id = 2, Name = "Aninri" },
@@ -413,7 +414,7 @@ namespace Naija
                 Id = 15,
                 Name = "Gombe",
                 Capital ="Gombe",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Akko" },
                     new Lga { Id = 2, Name = "Balanga" },
@@ -433,7 +434,7 @@ namespace Naija
                 Id = 16,
                 Name = "Imo",
                 Capital = "Owerri",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Aboh Mbaise" },
                     new Lga { Id = 2, Name = "Ahiazu Mbaise" },
@@ -469,7 +470,7 @@ namespace Naija
                 Id = 17,
                 Name = "Jigawa",
                 Capital = "Dutse",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Auyo" },
                     new Lga { Id = 2, Name = "Babura" },
@@ -505,7 +506,7 @@ namespace Naija
                 Id = 18,
                 Name = "Kaduna",
                 Capital = "Kaduna",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Birnin Gwari" },
                     new Lga { Id = 2, Name = "Chikun" },
@@ -537,7 +538,7 @@ namespace Naija
                 Id = 19,
                 Name = "Kano",
                 Capital = "Kano",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Ajingi" },
                     new Lga { Id = 2, Name = "Albasu" },
@@ -590,7 +591,7 @@ namespace Naija
                 Id = 20,
                 Name = "Katsina",
                 Capital = "Katsina",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Bakori" },
                     new Lga { Id = 2, Name = "Batagarawa" },
@@ -633,7 +634,7 @@ namespace Naija
                 Id = 21,
                 Name = "Kebbi",
                 Capital = "Birnin Kebbi",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Aleiro" },
                     new Lga { Id = 2, Name = "Argungu" },
@@ -663,7 +664,7 @@ namespace Naija
                 Id = 22,
                 Name = "Kogi",
                 Capital = "Lokoja",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Ajaokuta" },
                     new Lga { Id = 2, Name = "Adavi" },
@@ -693,7 +694,7 @@ namespace Naija
                 Id = 23,
                 Name = "Kwara",
                 Capital = "Ilorin",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Asa" },
                     new Lga { Id = 2, Name = "Baruten" },
@@ -718,7 +719,7 @@ namespace Naija
                 Id = 24,
                 Name = "Lagos",
                 Capital = "Ikeja",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Agege" },
                     new Lga { Id = 2, Name = "Ajeromi-Ifelodun" },
@@ -747,7 +748,7 @@ namespace Naija
                 Id = 25,
                 Name = "Nasarawa",
                 Capital = "Lafia",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Akwanga" },
                     new Lga { Id = 2, Name = "Awe" },
@@ -769,7 +770,7 @@ namespace Naija
                 Id= 26,
                 Name = "Niger",
                 Capital = "Minna",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Agaie" },
                     new Lga { Id = 2, Name = "Agwara" },
@@ -803,7 +804,7 @@ namespace Naija
                 Id = 27,
                 Name = "Ogun",
                 Capital = "Abeokuta",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Abeokuta North" },
                     new Lga { Id = 2, Name = "Abeokuta South" },
@@ -832,7 +833,7 @@ namespace Naija
                 Id = 28,
                 Name = "Ondo",
                 Capital = "Akure",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Akoko North-East" },
                     new Lga { Id = 2, Name = "Akoko North-West" },
@@ -859,7 +860,7 @@ namespace Naija
                 Id = 29,
                 Name = "Osun",
                 Capital = "Oshogbo",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Aiyedire" },
                     new Lga { Id = 2, Name = "Atakunmosa West" },
@@ -898,7 +899,7 @@ namespace Naija
                 Id = 30,
                 Name = "Oyo",
                 Capital = "Ibadan",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Afijio" },
                     new Lga { Id = 2, Name = "Akinyele" },
@@ -940,7 +941,7 @@ namespace Naija
                 Id = 31,
                 Name = "Plateau",
                 Capital = "Jos",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Bokkos" },
                     new Lga { Id = 2, Name = "Barkin Ladi" },
@@ -966,7 +967,7 @@ namespace Naija
                 Id = 32,
                 Name = "Rivers",
                 Capital = "Port Harcourt",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Abua/Odual" },
                     new Lga { Id = 2, Name = "Ahoada East" },
@@ -998,7 +999,7 @@ namespace Naija
                 Id = 33,
                 Name = "Sokoto",
                 Capital = "Sokoto",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Gudu" },
                     new Lga { Id = 2, Name = "Gwadabawa" },
@@ -1030,7 +1031,7 @@ namespace Naija
                 Id = 34,
                 Name = "Taraba",
                 Capital = "Jalingo",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Ardo Kola" },
                     new Lga { Id = 2, Name = "Bali" },
@@ -1055,7 +1056,7 @@ namespace Naija
                 Id = 35,
                 Name = "Yobe",
                 Capital = "Damaturu",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Bade" },
                     new Lga { Id = 2, Name = "Bursari" },
@@ -1081,7 +1082,7 @@ namespace Naija
                 Id = 36,
                 Name = "Zamfara",
                 Capital = "Gusau",
-                LGAs = new List<Lga>
+                Lgas = new List<Lga>
                 {
                     new Lga { Id = 1, Name = "Anka" },
                     new Lga { Id = 2, Name = "Birnin Magaji/Kiyaw" },
@@ -1108,12 +1109,22 @@ namespace Naija
 
         public static State GetState(int id)
         {
-            return States.FirstOrDefault(x => x.Id == id);
+            if (id <= 0)
+                throw new ArgumentOutOfRangeException(nameof(id), "State ID must be greater than zero.");
+
+            var state = States.FirstOrDefault(x => x.Id == id);
+
+            return state ?? throw new KeyNotFoundException($"State with ID {id} was not found.");
         }
 
         public static State GetState(string name)
         {
-            return States.FirstOrDefault(x => x.Name.ToLower() == name.ToLower());
+            if (string.IsNullOrWhiteSpace(name))
+                throw new ArgumentException("State name cannot be null or empty.", nameof(name));
+
+            var state = States.FirstOrDefault(x => string.Equals(x.Name, name, StringComparison.OrdinalIgnoreCase));
+
+            return state ?? throw new KeyNotFoundException($"State with name '{name}' was not found.");
         }
     }
 }

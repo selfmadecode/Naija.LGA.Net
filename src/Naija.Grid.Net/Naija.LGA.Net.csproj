@@ -9,28 +9,29 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/selfmadecode/Naija.LGA.Net</RepositoryUrl>
     <PackageTags>LGA;Nigeria; States and LGAs; Nigerian Geography; Local Government Areas; State Information; Geographic Data; Nigerian Development; LGA Lookup; State</PackageTags>
-    <PackageReleaseNotes>Version 2.0.0
-- Enhancements and Changes:  
-  -The class and method names have been updated to better reflect the inclusion of Local Government Areas (LGAs).
- - GetState(id) has been renamed to GetStateWithLgas(id)
- - GetStates has been renamed to GetStatesWithLgas  
+    <PackageReleaseNotes>
+		Version 2.0.0
+		- Enhancements and Changes:
+		-The class and method names have been updated to better reflect the inclusion of Local Government Areas (LGAs).
+		- GetState(id) has been renamed to GetStateWithLgas(id)
+		- GetStates has been renamed to GetStatesWithLgas
 
-- Usage changes
-  var states = Naija.GetStatesWithLgas(); 
-  Console.WriteLine(states.Count());
+		- Usage changes
+		var states = Naija.GetStatesWithLgas();
+		Console.WriteLine(states.Count());
 
-  var state = Naija.GetStateWithLgas(36); 
-  var imo = NaijaLGA.GetState("Imo");
-  
-Bug Fixes
-None in this release.
+		var state = Naija.GetStateWithLgas(36);
+		var imo = Naija.GetState("Imo");
 
-- Future Enhancements:
-  - Addition of utility methods for more specific queries.  
-  - Potential integration of population and demographic data.  
-  - API support for dynamic data fetching.  
+		Bug Fixes
+		None in this release.
 
-</PackageReleaseNotes>
+		- Future Enhancements:
+		- Addition of utility methods for more specific queries.
+		- Potential integration of population and demographic data.
+		- API support for dynamic data fetching.
+
+	</PackageReleaseNotes>
     <PackageIcon>naijagridicon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>

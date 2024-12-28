@@ -9,6 +9,6 @@ namespace Naija
         public int Id { get; set; }
         public string Name { get; set; }
         public string Capital { get; set; }
-        public IEnumerable<Lga> LGAs { get; set; } = new List<Lga>();
+        public IEnumerable<Lga> Lgas { get; set; } = new List<Lga>();
     }
 }

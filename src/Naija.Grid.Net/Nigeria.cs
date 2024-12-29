@@ -54,5 +54,22 @@ namespace Naija
 
             return state ?? throw new KeyNotFoundException($"State with name '{name}' was not found.");
         }
+
+        // <summary>
+        /// Retrieves all <see cref="State"/> states without their LGAs.
+        /// </summary>
+        /// <returns>A list of <see cref="IEnumerable{State}"/> objects without LGAs.</returns>
+        public static IEnumerable<State> GetStatesWithoutLgas()
+        {
+            return States
+                .Select(state => new State
+                {
+                    Id = state.Id,
+                    Name = state.Name,
+                    Capital = state.Capital,
+                    Lgas = null // exclude LGAs
+                })
+                .ToList();
+        }
     }
 }

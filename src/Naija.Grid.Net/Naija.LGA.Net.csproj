@@ -1,9 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-	<GenerateDocumentationFile>true</GenerateDocumentationFile>
-	<DocumentationFile>bin\Release\netstandard2.0\Naija.xml</DocumentationFile>
+    <TargetFramework>netstandard2.0</TargetFramework>	
     <Title>Nigerian States and LGAs</Title>
     <Authors>selfmadecode</Authors>
     <Description>A lightweight library designed to provide information about Nigerian states and their respective Local Government Areas (LGAs).</Description>
@@ -23,9 +21,6 @@ We change the name of the class from Naija to Nigeria, methods like Naija.GetSta
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Version>2.0.1-rc1</Version>		
 	</PropertyGroup>
-	<ItemGroup>
-		<None Include="bin\Release\netstandard2.0\Naija.xml" Pack="true" PackagePath="bin\Debug\netstandard2.0\Naija.xml" />
-	</ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\LICENSE.txt">

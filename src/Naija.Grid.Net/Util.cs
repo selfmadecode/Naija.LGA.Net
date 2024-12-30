@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Naija.LGA.Net.Model;
 using Naija.Model;
 
 namespace Naija.Utilities
@@ -722,26 +723,221 @@ namespace Naija.Utilities
                     Capital = "Ikeja",
                     Lgas = new List<Lga>
                     {
-                        new Lga { Id = 1, Name = "Agege" },
-                        new Lga { Id = 2, Name = "Ajeromi-Ifelodun" },
-                        new Lga { Id = 3, Name = "Alimosho" },
-                        new Lga { Id = 4, Name = "Amuwo-Odofin" },
-                        new Lga { Id = 5, Name = "Badagry" },
-                        new Lga { Id = 6, Name = "Apapa" },
-                        new Lga { Id = 7, Name = "Epe" },
-                        new Lga { Id = 8, Name = "Eti Osa" },
-                        new Lga { Id = 9, Name = "Ibeju-Lekki" },
-                        new Lga { Id = 10, Name = "Ifako-Ijaiye" },
-                        new Lga { Id = 11, Name = "Ikeja" },
-                        new Lga { Id = 12, Name = "Ikorodu" },
-                        new Lga { Id = 13, Name = "Kosofe" },
-                        new Lga { Id = 14, Name = "Lagos Island" },
-                        new Lga { Id = 15, Name = "Mushin" },
-                        new Lga { Id = 16, Name = "Lagos Mainland" },
-                        new Lga { Id = 17, Name = "Ojo" },
-                        new Lga { Id = 18, Name = "Oshodi-Isolo" },
-                        new Lga { Id = 19, Name = "Shomolu" },
-                        new Lga { Id = 20, Name = "Surulere Lagos State" },
+                        new Lga 
+                        { 
+                            Id = 1, 
+                            Name = "Agege",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 1, Name = "Oko-Oba" },
+                                new City { Id = 2, Name = "Dopemu" },
+                                new City { Id = 3, Name = "Capitol" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 2,
+                            Name = "Ajeromi-Ifelodun",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 4, Name = "Ajegunle" },
+                                new City { Id = 5, Name = "Amukoko" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 3, 
+                            Name = "Alimosho",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 6, Name = "Egbeda" },
+                                new City { Id = 7, Name = "Ikotun" },
+                                new City { Id = 8, Name = "Ipaja" },
+                                new City { Id = 9, Name = "Iyana-Ipaja" },
+                                new City { Id = 10, Name = "Akowonjo" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 4, 
+                            Name = "Amuwo-Odofin",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 11, Name = "Festac Town" },
+                                new City { Id = 12, Name = "Satellite Town" },
+                                new City { Id = 13, Name = "Trade Fair Complex" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 5, 
+                            Name = "Badagry",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 14, Name = "Badagry Town" },
+                                new City { Id = 15, Name = "Ajara" },
+                                new City { Id = 16, Name = "Seme Border" },
+                                new City { Id = 17, Name = "Ibereko" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 6, 
+                            Name = "Apapa",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 18, Name = "Apapa Wharf" },
+                                new City { Id = 19, Name = "Ajegunle" },
+                                new City { Id = 20, Name = "Iganmu" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 7, 
+                            Name = "Epe",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 21, Name = "Epe Town" },
+                                new City { Id = 22, Name = "Igbogbo" },
+                                new City { Id = 23, Name = "Ilara" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 8, 
+                            Name = "Eti Osa",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 24, Name = "Victoria Island" },
+                                new City { Id = 25, Name = "Lekki" },
+                                new City { Id = 26, Name = "Ikoyi" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 9, 
+                            Name = "Ibeju-Lekki",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 27, Name = "Ibeju Town" },
+                                new City { Id = 28, Name = "Lekki Free Trade Zone" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 10, 
+                            Name = "Ifako-Ijaiye",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 29, Name = "Iju" },
+                                new City { Id = 30, Name = "Ishaga" },
+                                new City { Id = 31, Name = "Ojokoro" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 11,
+                            Name = "Ikeja",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 32, Name = "Alausa" },
+                                new City { Id = 33, Name = "Ojodu" },
+                                new City { Id = 34, Name = "Ogba" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 12, 
+                            Name = "Ikorodu",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 35, Name = "Ikorodu Town" },
+                                new City { Id = 36, Name = "Imota" },
+                                new City { Id = 37, Name = "Igbogbo-Baiyeku" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 13, 
+                            Name = "Kosofe",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 38, Name = "Ogudu" },
+                                new City { Id = 39, Name = "Magodo" },
+                                new City { Id = 40, Name = "Ketu" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 14, 
+                            Name = "Lagos Island",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 41, Name = "Obalende" },
+                                new City { Id = 42, Name = "Marina" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 15, 
+                            Name = "Mushin",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 43, Name = "Idi-Araba" },
+                                new City { Id = 44, Name = "Olorunsogo" }
+                            }
+                        },
+                        new Lga 
+                        {
+                            Id = 16, 
+                            Name = "Lagos Mainland",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 45, Name = "Ebute-Metta" },
+                                new City { Id = 46, Name = "Yaba" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 17, 
+                            Name = "Ojo",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 47, Name = "Alaba" },
+                                new City { Id = 48, Name = "Ijanikin" },
+                                new City { Id = 49, Name = "Ojo Town" }
+                            }
+                        },
+                        new Lga 
+                        { 
+                            Id = 18, 
+                            Name = "Oshodi-Isolo",
+                            Cities = new List<City>
+                            {
+                                new City { Id = 50, Name = "Oshodi" },
+                                new City { Id = 51, Name = "Isolo" },
+                                new City { Id = 52, Name = "Mafoluku" }
+                            }
+                        },
+                        new Lga { 
+                            Id = 19, 
+                            Name = "Shomolu", 
+                            Cities = new List<City>
+                            {
+                                new City { Id = 53, Name = "Bariga" },
+                                new City { Id = 54, Name = "Shomolu Town" }
+                            } 
+                        },
+                        new Lga 
+                        { 
+                            Id = 20, 
+                            Name = "Surulere Lagos State",  
+                            Cities = new List<City>
+                            {
+                                new City { Id = 55, Name = "Ojuelegba" },
+                                new City { Id = 56, Name = "Aguda" }
+                            } 
+                        },
                     }
                 },
                 new State

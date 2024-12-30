@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Naija.LGA.Net.Model;
 using Naija.Model;
 using Naija.Utilities;
 
@@ -70,6 +71,27 @@ namespace Naija
                     Lgas = null // exclude LGAs
                 })
                 .ToList();
+        }
+
+        /// <summary>
+        /// Retrieves all cities for a specified LGA in a state.
+        /// </summary>
+        /// <param name="stateId">The ID of the state.</param>
+        /// <param name="lgaId">The ID of the LGA.</param>
+        /// <returns>An <see cref="IEnumerable{City}"/> containing all cities in the specified LGA.</returns>
+        /// <exception cref="ArgumentOutOfRangeException">Thrown when the provided <paramref name="stateId"/> or <paramref name="lgaId"/> is less than or equal to zero.</exception>
+        /// <exception cref="KeyNotFoundException">Thrown if no matching state or LGA is found.</exception>
+        public static IEnumerable<City> GetCitiesByLgaId(int stateId, int lgaId)
+        {
+            if (stateId <= 0 || lgaId <= 0)
+                throw new ArgumentOutOfRangeException("State ID and LGA ID must be greater than zero.");
+
+            var state = States.FirstOrDefault(x => x.Id == stateId);
+            if (state == null)
+                throw new KeyNotFoundException($"State with ID {stateId} was not found.");
+
+            var lga = state.Lgas?.FirstOrDefault(x => x.Id == lgaId);
+            return lga?.Cities ?? throw new KeyNotFoundException($"LGA with ID {lgaId} was not found in state ID {stateId}.");
         }
     }
 }

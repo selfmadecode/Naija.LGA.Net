@@ -13,6 +13,14 @@ internal class Program
         var state = Nigeria.GetStateWithLgas(36);
         var imo = Nigeria.GetStateWithLgas("ImO");
 
+        var statesWithoutLgas = Nigeria.GetStatesWithoutLgas();
+
+        foreach (var statesWithoutLga in statesWithoutLgas)
+        {
+            Console.WriteLine($"State: {statesWithoutLga.Name} - Capital:{statesWithoutLga.Capital}");
+        }
+
+
         Console.WriteLine(state.Name);
         Console.WriteLine(imo.Name);
         Console.WriteLine("Hello, World!");

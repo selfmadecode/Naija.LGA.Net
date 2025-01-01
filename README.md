@@ -1,13 +1,14 @@
 # Naija.LGA.Net
 
 This package provides a simple way to retrieve data about Nigerian states and their Local Government Areas (LGAs).
-Designed for developers working with location-based services or administrative data in Nigeria.
+Designed for developers working with location-based services in Nigeria.
 
 
 ## Features
 
 - Retrieve all states in Nigeria.
 - Get a specific state by its ID or name.
+- Get states without their LGAs
 - Access comprehensive lists of Local Government Areas (LGAs) for each state.
 - Lightweight and easy-to-integrate.
 

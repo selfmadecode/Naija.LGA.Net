@@ -71,5 +71,21 @@ namespace Naija
                 })
                 .ToList();
         }
+
+        /// <summary>
+        /// Retrieves a <see cref="State"/> object by its name, without its LGAs.
+        /// </summary>
+        /// <param name="name">The name of the state to retrieve. It cannot be null or empty.</param>
+        /// <returns>A <see cref="State"/> object representing the state with the specified name.</returns>
+        /// <exception cref="ArgumentException">Thrown when the provided <paramref name="name"/> is null, empty, or consists only of white-space characters.</exception>
+        /// <exception cref="KeyNotFoundException">Thrown if no state with the specified name is found.</exception>
+
+        public static State GetStateWithoutLgas(string name)
+        {
+            var state = GetStateWithLgas(name);
+            state.Lgas = null;
+
+            return state;
+        }
     }
 }

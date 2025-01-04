@@ -7,7 +7,7 @@ internal class Program
 
         Console.WriteLine(states.Count());
 
-        var statesWithPriority = Nigeria.GetStatesWithLgasWithAndPrioritizeState(20);
+
         var state = Nigeria.GetStateWithLgas(36);
         var imo = Nigeria.GetStateWithLgas("ImO");
 
@@ -23,6 +23,7 @@ internal class Program
         Console.WriteLine(imo.Name);
         Console.WriteLine("Hello, World!");
 
+        var statesWithPriority = Nigeria.GetStatesWithLgasWithAndPrioritizeState(20);
         Console.WriteLine(statesWithPriority.First().Name);
     }
 }

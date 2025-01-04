@@ -7,8 +7,7 @@ internal class Program
 
         Console.WriteLine(states.Count());
 
-
-        var state = Nigeria.GetStateWithLgas(36);
+        var state = Nigeria.GetStateWithLgas(37);
         var imo = Nigeria.GetStateWithLgas("ImO");
 
         var statesWithoutLgas = Nigeria.GetStatesWithoutLgas();

@@ -56,7 +56,7 @@ class Program
 
         // Retrieve all states with priority state at the top
         var states = Nigeria.GetStatesWithLgasWithAndPrioritizeState(25);
-        Console.WriteLine($"Total states: {states.Count()}");
+        Console.WriteLine(statesWithPriority.First().Name);
     }
 }
 ```

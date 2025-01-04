@@ -1100,6 +1100,21 @@ namespace Naija.Utilities
                         new Lga { Id = 13, Name = "Tsafe" },
                         new Lga { Id = 14, Name = "Zurmi" },
                     }
+                },
+                new State
+                {
+                    Id = 37,
+                    Name = "FCT",
+                    Capital = "Abuja",
+                    Lgas = new List<Lga>
+                    {
+                        new Lga { Id = 1, Name = "Abaji"},
+                        new Lga { Id = 2, Name = "Bwari"},
+                        new Lga { Id = 3, Name = "Gwagwalada"},
+                        new Lga { Id = 4, Name = "Kuje"},
+                        new Lga { Id = 5, Name = "Kwali"},
+                        new Lga { Id = 6, Name = "Abuja Municipal"}
+                    }
                 }
             };
         }

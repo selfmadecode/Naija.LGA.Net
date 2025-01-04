@@ -14,15 +14,8 @@ namespace Naija
         /// Retrieves all <see cref="State"/> objects, including their LGAs.
         /// </summary>
         /// <returns>An <see cref="IEnumerable{State}"/> containing all states with their LGAs.</returns>
-        public static IEnumerable<State> GetStatesWithLgas(int? id = null)
+        public static IEnumerable<State> GetStatesWithLgas()
         {
-            if (id != null && id > 0)
-            {
-                var recordToMove = States.FirstOrDefault(s => s.Id == id);
-                States.Remove(recordToMove);
-                States.Insert(0, recordToMove);
-                return States.ToList();
-            }
             return States.ToList();
         }
 
@@ -93,6 +86,25 @@ namespace Naija
             state.Lgas = null;
 
             return state;
+        }
+
+        /// <summary>
+        /// Retrieves all <see cref="State"/> objects, including their LGAs with a priority state moved to the top of the list.
+        /// </summary>
+        /// <returns>An <see cref="IEnumerable{State}"/> containing all states with their LGAs with a priority state moved to the top of the list.</returns>
+        public static IEnumerable<State> GetStatesWithLgasWithAndPrioritizeState(int priorityStateId)
+        {
+            if (priorityStateId > 0 && priorityStateId <= 37)
+            {
+                var recordToMove = States.FirstOrDefault(s => s.Id == priorityStateId);
+                if (recordToMove == null)
+                {
+                    return States.ToList();
+                }
+                return new List<State> { recordToMove }
+                                .Concat(States.Where(X => X.Id != priorityStateId)).ToList();
+            }
+            return States.ToList();
         }
     }
 }

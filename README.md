@@ -53,6 +53,10 @@ class Program
         // Retrieve a state by name
         var imo = Nigeria.GetStateWithLgas("Imo");
         Console.WriteLine($"Imo LGAs: {string.Join(", ", imo.LGAs.Select(l => l.Name))}");
+
+        // Retrieve all states with priority state at the top
+        var states = Nigeria.GetStatesWithLgasWithAndPrioritizeState(25);
+        Console.WriteLine($"Total states: {states.Count()}");
     }
 }
 ```
@@ -82,6 +86,12 @@ class Program
      var imo = Nigeria.GetStateWithLgas("Imo");
      ```
 
+4. **GetStatesWithLgasWithAndPrioritizeState(int priorityStateId)**
+    - Returns a list of all Nigerian states with a priority state at the top of the list
+    ```csharp
+    var states = Nigeria.GetStatesWithLgasWithAndPrioritizeState(29);
+    Console.WriteLine(statesWithPriority.First().Name);
+    ```
 ---
 
 ## Data Structure
@@ -89,6 +99,7 @@ class Program
 ### State Object
 
 - **Id** (int): Unique identifier for the state.
+- **priorityStateId** (int): Unique identifier for the state.
 - **Name** (string): Name of the state.
 - **Capital** (string): Capital for the state.
 - **Lgas** (List<Lga>): List of Local Government Areas within the state.

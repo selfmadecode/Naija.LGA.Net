@@ -91,14 +91,15 @@ namespace Naija
         /// <summary>
         /// Retrieves all <see cref="State"/> objects, including their LGAs with a priority state moved to the top of the list.
         /// </summary>
+        /// /// <param name="priorityStateId">The id of the state to prioritize. It cannot be null or empty.</param>
         /// <returns>An <see cref="IEnumerable{State}"/> containing all states with their LGAs with a priority state moved to the top of the list.</returns>
         public static IEnumerable<State> GetStatesWithLgas(int priorityStateId)
         {
             if (priorityStateId > 0 && priorityStateId <= 37)
             {
-                var stateToMove = States.FirstOrDefault(s => s.Id == priorityStateId);
+                var stateToPrioritize = States.FirstOrDefault(s => s.Id == priorityStateId);
 
-                return new List<State> { stateToMove }
+                return new List<State> { stateToPrioritize }
                                 .Concat(States.Where(X => X.Id != priorityStateId)).ToList();
             }
             return States.ToList();

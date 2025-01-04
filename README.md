@@ -99,7 +99,6 @@ class Program
 ### State Object
 
 - **Id** (int): Unique identifier for the state.
-- **priorityStateId** (int): Unique identifier for the state.
 - **Name** (string): Name of the state.
 - **Capital** (string): Capital for the state.
 - **Lgas** (List<Lga>): List of Local Government Areas within the state.

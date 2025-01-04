@@ -1108,12 +1108,12 @@ namespace Naija.Utilities
                     Capital = "Abuja",
                     Lgas = new List<Lga>
                     {
-                        new Lga { Id = 1, Name = "Abaji"},
-                        new Lga { Id = 2, Name = "Bwari"},
-                        new Lga { Id = 3, Name = "Gwagwalada"},
-                        new Lga { Id = 4, Name = "Kuje"},
-                        new Lga { Id = 5, Name = "Kwali"},
-                        new Lga { Id = 6, Name = "Abuja Municipal"}
+                        new Lga { Id = 1, Name = "Abaji" },
+                        new Lga { Id = 2, Name = "Abuja Municipal" },
+                        new Lga { Id = 3, Name = "Bwari" },
+                        new Lga { Id = 4, Name = "Gwagwalada" },
+                        new Lga { Id = 5, Name = "Kuje" },
+                        new Lga { Id = 6, Name = "Kwali" }
                     }
                 }
             };

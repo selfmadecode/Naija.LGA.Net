@@ -14,8 +14,15 @@ namespace Naija
         /// Retrieves all <see cref="State"/> objects, including their LGAs.
         /// </summary>
         /// <returns>An <see cref="IEnumerable{State}"/> containing all states with their LGAs.</returns>
-        public static IEnumerable<State> GetStatesWithLgas()
+        public static IEnumerable<State> GetStatesWithLgas(int? id = null)
         {
+            if (id != null && id > 0)
+            {
+                var recordToMove = States.FirstOrDefault(s => s.Id == id);
+                States.Remove(recordToMove);
+                States.Insert(0, recordToMove);
+                return States.ToList();
+            }
             return States.ToList();
         }
 

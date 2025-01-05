@@ -63,7 +63,7 @@ class Program
 
 ### Explanation of Methods
 
-1. **GetStates**
+1. **GetStatesWithLgas**
    - Returns a list of all Nigerian states.
    - Example:
      ```csharp
@@ -71,7 +71,7 @@ class Program
      Console.WriteLine(states.Count());
      ```
 
-2. **GetState(int id)**
+2. **GetStateWithLgas(int id)**
    - Retrieves a specific state by its ID.
    - Example:
      ```csharp
@@ -79,14 +79,14 @@ class Program
      Console.WriteLine(state.Name);
      ```
 
-3. **GetState(string name)**
+3. **GetStateWithLgas(string name)**
    - Retrieves a state by its name (case-insensitive).
    - Example:
      ```csharp
      var imo = Nigeria.GetStateWithLgas("Imo");
      ```
 
-4. **GetStates(int priorityStateId)**
+4. **GetStatesWithLgas(int priorityStateId)**
     - Returns a list of all Nigerian states with a priority state at the top of the list
     ```csharp
     var states = Nigeria.GetStatesWithLgas(29);

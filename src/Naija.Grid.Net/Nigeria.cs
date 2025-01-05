@@ -89,18 +89,22 @@ namespace Naija
         }
 
         /// <summary>
-        /// Retrieves all <see cref="State"/> objects, including their LGAs with a priority state moved to the top of the list.
+        /// Retrieves a list of states, prioritizing the specified state by placing it at the beginning.
+        /// If the specified state is not found or the ID is invalid, all states are returned without prioritization.
         /// </summary>
-        /// <param name="priorityStateId">The id of the state to prioritize. It cannot be null or empty.</param>
+        /// <param name="priorityStateId">The id of the state to prioritize. Must be greater than 0 and within the range of existing states</param>
         /// <returns>An <see cref="IEnumerable{State}"/> containing all states with their LGAs with a priority state moved to the top of the list.</returns>
+        /// <exception cref="InvalidOperationException"> Thrown if no state with the specified <paramref name="priorityStateId"/> exists
+        /// </exception>
         public static IEnumerable<State> GetStatesWithLgas(int priorityStateId)
         {            
-            if (priorityStateId > 0 && priorityStateId <= 37)
+            if (priorityStateId > 0 && priorityStateId <= States.Count)
             {
-                var stateToPrioritize = States.FirstOrDefault(s => s.Id == priorityStateId);
+                var stateToPrioritize = States.Single(s => s.Id == priorityStateId);
 
+                // return the prioritized state first followed by the remaining states, excluding the prioritized one.
                 return new List<State> { stateToPrioritize }
-                                .Concat(States.Where(x => x.Id != priorityStateId)).ToList();
+                    .Concat(States.Where(x => x.Id != priorityStateId));
             }
 
             return GetStatesWithLgas();

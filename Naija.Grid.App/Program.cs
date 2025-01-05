@@ -21,5 +21,8 @@ internal class Program
         Console.WriteLine(state.Name);
         Console.WriteLine(imo.Name);
         Console.WriteLine("Hello, World!");
+
+        var statesWithPriority = Nigeria.GetStatesWithLgas(20);
+        Console.WriteLine(statesWithPriority.First().Name);
     }
 }

@@ -53,6 +53,10 @@ class Program
         // Retrieve a state by name
         var imo = Nigeria.GetStateWithLgas("Imo");
         Console.WriteLine($"Imo LGAs: {string.Join(", ", imo.LGAs.Select(l => l.Name))}");
+
+        // Retrieve all states with priority state at the top
+        var states = Nigeria.GetStatesWithLgas(25);
+        Console.WriteLine(statesWithPriority.First().Name);
     }
 }
 ```
@@ -82,6 +86,12 @@ class Program
      var imo = Nigeria.GetStateWithLgas("Imo");
      ```
 
+4. **GetStates(int priorityStateId)**
+    - Returns a list of all Nigerian states with a priority state at the top of the list
+    ```csharp
+    var states = Nigeria.GetStatesWithLgas(29);
+    Console.WriteLine(statesWithPriority.First().Name);
+    ```
 ---
 
 ## Data Structure

@@ -6,6 +6,9 @@ using Naija.Utilities;
 
 namespace Naija
 {
+    /// <summary>
+    /// Represents the country Nigeria including it's states and LGAs.
+    /// </summary>
     public static class Nigeria
     {
         private static readonly List<State> States = Util.InitializeStates();

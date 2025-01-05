@@ -9,17 +9,18 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/selfmadecode/Naija.LGA.Net</RepositoryUrl>
     <PackageTags>LGA;Nigeria; States and LGAs; Nigerian Geography; Local Government Areas; State Information; Geographic Data; Nigerian Development; LGA Lookup; State</PackageTags>
-    <PackageReleaseNotes>Version 2.0.1
-We change the name of the class from Naija to Nigeria, methods like Naija.GetStatesWithLga will now be Nigeria.GetStatesWithLgas
-  
-  Bug Fixes
-  None in this release.
+    <PackageReleaseNotes>Version 2.1.0
 
- </PackageReleaseNotes>
+New Features
+Added the ability to retrieve a list of states with a specified priority state placed as the first item in the list.
+
+Bug Fixes
+Update ReadMe doc
+Included the missing state, Abuja, in the list of states.</PackageReleaseNotes>
     <PackageIcon>naijagridicon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <Version>2.0.1-rc1</Version>		
+    <Version>2.1.0</Version>		
 	</PropertyGroup>
 
   <ItemGroup>

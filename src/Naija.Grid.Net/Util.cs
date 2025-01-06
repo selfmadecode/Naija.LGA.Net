@@ -8,6 +8,12 @@ namespace Naija.Utilities
     /// </summary>
     public static class Util
     {
+        /// <summary>
+        /// Initializes a predefined list of states along with their capitals and LGAs.
+        /// </summary>
+        /// <returns>
+        /// A <see cref="List{State}"/> containing state objects with their respective properties.
+        /// </returns>
         public static List<State> InitializeStates()
         {
             return new List<State>

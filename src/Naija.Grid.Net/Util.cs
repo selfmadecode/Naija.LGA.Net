@@ -3,6 +3,9 @@ using Naija.Model;
 
 namespace Naija.Utilities
 {
+    /// <summary>
+    /// A utility class for initializing and managing state data.
+    /// </summary>
     public static class Util
     {
         public static List<State> InitializeStates()

@@ -27,6 +27,8 @@ Or via the .NET CLI:
 dotnet add package Naija.LGA.Net
 ```
 
+Or Download the latest version on [nuget](https://www.nuget.org/packages/Naija.LGA.Net)
+
 ---
 
 ## Usage

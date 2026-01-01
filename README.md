@@ -1,4 +1,16 @@
 # Naija.LGA.Net
+[![NuGet Version](https://img.shields.io/nuget/v/Naija.LGA.Net.svg?style=flat&logo=nuget)](https://www.nuget.org/packages/Naija.LGA.Net)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Naija.LGA.Net.svg?style=flat&logo=nuget)](https://www.nuget.org/packages/Naija.LGA.Net)
+[![License](https://img.shields.io/github/license/selfmadecode/Naija.LGA.Net.svg?style=flat)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/selfmadecode/Naija.LGA.Net.svg?style=flat)](https://github.com/selfmadecode/Naija.LGA.Net/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/selfmadecode/Naija.LGA.Net.svg?style=flat)](https://github.com/selfmadecode/Naija.LGA.Net/pulls)
+[![.NET](https://img.shields.io/badge/.NET-%C2%B9.NET%20Standard%202.0-512BD4?style=flat&logo=dot-net)](https://dotnet.microsoft.com/)
+[![GitHub Stars](https://img.shields.io/github/stars/selfmadecode/Naija.LGA.Net.svg?style=flat&logo=github)](https://github.com/selfmadecode/Naija.LGA.Net/stargazers)
+![Last Commit](https://img.shields.io/github/last-commit/selfmadecode/Naija.LGA.Net?style=flat&logo=github)
+![Repo Size](https://img.shields.io/github/repo-size/selfmadecode/Naija.LGA.Net?style=flat)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/selfmadecode/Naija.LGA.Net/pulls)
+
+<!--[![Build](https://img.shields.io/github/actions/workflow/status/selfmadecode/Naija.LGA.Net/build.yml?branch=main&style=flat&logo=github)](https://github.com/selfmadecode/Naija.LGA.Net/actions)-->
 
 This package provides a simple way to retrieve data about Nigerian states and their Local Government Areas (LGAs).
 Designed for developers working with location-based services in Nigeria.
